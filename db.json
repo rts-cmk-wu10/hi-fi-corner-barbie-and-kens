@@ -1,5 +1,5 @@
 {
-    "products":[
+    "products": [
         {
             "id": 1,
             "name": "",
@@ -8,52 +8,54 @@
             "warranty": "",
             "price": 1,
             "discount": 0,
-            "card-surcharges":"no",
+            "card-surcharges": "no",
             "color": [
                 {
-                    "name":""
-                }],
-            "delivery":[
-                {
-                "charge": "",
-                "time": ""
-            }
-        ],
-            "manufacturer": [
-                {
-                    "name":"",
-                    "link": "",
-                    "logo":""
+                    "name": ""
                 }
             ],
-            "description":[{
-                "text": "",
-                "technical": [
-                    {
-                        "input-sensitivity": [
-                            {
-                                "mm": "",
-                                "mc": "",
-                                "high-level": "",
-                                "balanced-high-level": "",
-                                "power-amp-direct-in": ""
-                            }
-                        ],
-                        "signal-noise-ratio": [
-                            {
-                                "mm": "",
-                                "mc": "",
-                                "high-level": "",
-                                "power-amp-direct-in": ""
-                            }
-                        ],
-                        "power-output": "",
-                        "frenquency": "",
-                        "harmonic-distortion": "",
-                        "damping-factor": ""
-                    }
-                ]
-            }
+            "delivery": [
+                {
+                    "charge": "",
+                    "time": ""
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "",
+                    "link": "",
+                    "logo": ""
+                }
+            ],
+            "description": [
+                {
+                    "text": "",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "",
+                                    "mc": "",
+                                    "high-level": "",
+                                    "balanced-high-level": "",
+                                    "power-amp-direct-in": ""
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "",
+                                    "mc": "",
+                                    "high-level": "",
+                                    "power-amp-direct-in": ""
+                                }
+                            ],
+                            "power-output": "",
+                            "frenquency": "",
+                            "harmonic-distortion": "",
+                            "damping-factor": ""
+                        }
+                    ]
+                }
             ]
         }
     ]
