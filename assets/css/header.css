@@ -1,0 +1,72 @@
+.frontpageHeader {
+    position: fixed;
+    width: 100%;
+
+    z-index: 9999;
+}
+
+.headerContact {
+    background-color: rgba(0, 0, 0, 0.744);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.headerWhiteIcon {
+    color: #ffffff;
+    padding: 0 .6em;
+    font-size: xx-large;
+
+}
+
+.headerMenu {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    border-top: solid 2px #9D7A3E;
+
+}
+
+.headerMenu__list {
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 .5em;
+
+}
+
+.headerMenu__list:hover {
+    color: #9D7A3E;
+    text-decoration: none;
+}
+
+.headerContact__subscribe {
+    color: white;
+    background-color: #1190E6;
+    padding: .4em .6em;
+    border-radius: 7px;
+    margin: 0 3% 0 0;
+    text-decoration: none;
+
+}
+
+.headerContact__subscribe-pipe {
+    color: rgba(96, 96, 96, 0.7);
+}
+
+.headerContact__subscribe-icon {
+    padding: 0 .3em;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
