@@ -1,0 +1,30 @@
+.announcement {
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcement__text {
+    color: white;
+
+    position: absolute;
+
+    font-size: xx-large;
+
+    width: 60%;
+
+    text-align: center;
+}
+
+.announcement__background {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+    z-index: -1;
+
+    box-shadow: none;
+}
