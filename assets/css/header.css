@@ -1,5 +1,6 @@
 .frontpageHeader {
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 
 .headerContact {
