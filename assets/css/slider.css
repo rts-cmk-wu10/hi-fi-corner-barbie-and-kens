@@ -1,0 +1,35 @@
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 2rem;
+}
+
+.slider__heading {
+    color: #CAA136;
+}
+
+.slider__img {
+    object-fit: cover;
+    height: 300px;
+    width: 600px;
+}
+
+.slider__back, .slider__forward {
+    background-color: transparent;
+
+    color: #CAA136;
+
+    border: none;
+
+    font-size: 60px;
+
+    cursor: pointer;
+}
+
+.slider__back:hover, .slider__forward:hover {
+    color: gold;
+}
