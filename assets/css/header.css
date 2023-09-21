@@ -1,72 +1,126 @@
-.frontpageHeader {
+.primaryNavigation {
+    display: flex;
+    flex-direction: column;
+
     position: fixed;
+
     width: 100%;
 
-    z-index: 9999;
+    z-index: 99;
 }
 
-.headerContact {
-    background-color: rgba(0, 0, 0, 0.744);
-    width: 100%;
-    height: 90px;
+.primaryNavigation__utility {
+    list-style-type: none;
+
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    list-style: none;
-    text-decoration: none;
+    gap: 2rem;
 
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding-right: 2rem;
+
+    height: 50px;
 }
 
-.headerWhiteIcon {
-    color: #ffffff;
-    padding: 0 .6em;
-    font-size: xx-large;
-
+.primaryNavigation__utility li:first-child {
+    margin-right: auto;
+    padding-left: 2rem;
 }
 
-.headerMenu {
-    background-color: black;
+.primaryNavigation__subscribe {
+    background-color: #1190E6;
+
+    border-radius: 0.25rem;
+
+    padding: 0.1rem 0.5rem;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.primaryNavigation__navigation {
+    list-style-type: none;
+
+    background-color: black;
+
+    border-top: solid 1px #9D7A3E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
     height: 50px;
-    width: 100%;
-    border-top: solid 2px #9D7A3E;
 
 }
 
-.headerMenu__list {
-    color: white;
-    list-style: none;
-    text-transform: uppercase;
+.primaryNavigation__item {
+    font-size: 18px;
+    font-weight: bold;
+
     text-decoration: none;
-    padding: 0 .5em;
 
+    color: white;
 }
 
-.headerMenu__list:hover {
+.primaryNavigation__item:hover {
     color: #9D7A3E;
-    text-decoration: none;
 }
 
-.headerContact__subscribe {
-    color: white;
-    background-color: #1190E6;
-    padding: .4em .6em;
-    border-radius: 7px;
-    margin: 0 3% 0 0;
-    text-decoration: none;
-
+.primaryNavigation__item--black {
+    color: gray;
 }
 
-.headerContact__subscribe-pipe {
-    color: rgba(96, 96, 96, 0.7);
+.searchInputContainer {
+    position: relative;
 }
 
-.headerContact__subscribe-icon {
-    padding: 0 .3em;
-    list-style: none;
-    text-decoration: none;
-    color: #ffffff;
+.primaryNavigation__searchInput {
+    width: 350px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 5px;
+    top: 2.5px;
+    cursor: pointer;
+    color: rgb(198, 198, 198);
+}
+
+.logoHeader {
+    width: 35px;
+    height: 35px;
+    /* margin-right: 50rem; */
+}
+
+.logoHeader__box {
+    border: 2px solid white;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    font-weight: bold;
+    font-size: 5px;
+
+    padding: 0.25rem;
+}
+
+.logoHeader__boxSpan {
+    color: #fff;
+}
+
+.logoHeader__url {
+    color: #fff;
+    padding-top: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5px;
+}
+
+.black {
+    background-color: black;
 }
