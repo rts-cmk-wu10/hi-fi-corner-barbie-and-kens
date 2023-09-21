@@ -2,12 +2,16 @@
 @import url('./assets/css/announcement.css');
 @import url('./assets/css/socials.css');
 @import url('./assets/css/slider.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 @import url("./assets/css/header.css");
+@import url("./assets/css/footer.css");
+@import url("./assets/css/shop-category-pictures-grid.css");
+@import url("./assets/css/shop-category-sidebar.css");
 @import url('./assets/css/secondaryNavigation.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
