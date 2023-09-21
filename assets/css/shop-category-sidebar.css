@@ -1,0 +1,25 @@
+.shop__categoryMenu {
+    background-color: rgb(217, 217, 217);
+    margin:0 0 0 2em;
+    width: 30%;
+    
+
+}
+
+.shop__shopByMenu {
+    background-color: rgb(217, 217, 217);
+    margin:2em 0 0 2em;
+    width: 30%;
+}
+
+.shop__categoryItem, .shop__shopByItem{
+    padding: .6em 2em;
+    list-style: none;
+    color: #B19C6C;
+    
+}
+.shop__shopBySubItem, .shop__categorySubItem{
+    padding: .6em 2em;
+    list-style: none;
+    color: #B19C6C;
+}
