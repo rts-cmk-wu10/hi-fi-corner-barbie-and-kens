@@ -1,72 +1,70 @@
-.frontpageHeader {
+.primaryNavigation {
+    display: flex;
+    flex-direction: column;
+
     position: fixed;
+
     width: 100%;
 
-    z-index: 9999;
+    z-index: 99;
 }
 
-.headerContact {
-    background-color: rgba(0, 0, 0, 0.744);
-    width: 100%;
-    height: 90px;
+.primaryNavigation__utility {
+    list-style-type: none;
+
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    list-style: none;
-    text-decoration: none;
+    gap: 2rem;
 
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding-right: 2rem;
+
+    height: 50px;
 }
 
-.headerWhiteIcon {
-    color: #ffffff;
-    padding: 0 .6em;
-    font-size: xx-large;
+.primaryNavigation__subscribe {
+    background-color: #1190E6;
 
-}
+    border-radius: 0.25rem;
 
-.headerMenu {
-    background-color: black;
+    padding: 0.1rem 0.5rem;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.primaryNavigation__navigation {
+    list-style-type: none;
+
+    background-color: black;
+
+    border-top: solid 1px #9D7A3E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
     height: 50px;
-    width: 100%;
-    border-top: solid 2px #9D7A3E;
 
 }
 
-.headerMenu__list {
-    color: white;
-    list-style: none;
-    text-transform: uppercase;
+.primaryNavigation__item {
+    font-size: 18px;
+    font-weight: bold;
+
     text-decoration: none;
-    padding: 0 .5em;
 
+    color: white;
 }
 
-.headerMenu__list:hover {
+.primaryNavigation__item:hover {
     color: #9D7A3E;
-    text-decoration: none;
 }
 
-.headerContact__subscribe {
-    color: white;
-    background-color: #1190E6;
-    padding: .4em .6em;
-    border-radius: 7px;
-    margin: 0 3% 0 0;
-    text-decoration: none;
-
-}
-
-.headerContact__subscribe-pipe {
-    color: rgba(96, 96, 96, 0.7);
-}
-
-.headerContact__subscribe-icon {
-    padding: 0 .3em;
-    list-style: none;
-    text-decoration: none;
-    color: #ffffff;
+.primaryNavigation__item--black {
+    color: gray;
 }
