@@ -1,0 +1,13 @@
+.path {
+    padding: 1rem;
+
+    padding-top: 10rem;
+}
+
+.path__item {
+    color: gray;
+}
+
+.path__item--black {
+    color: black;
+}

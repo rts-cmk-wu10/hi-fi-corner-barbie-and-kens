@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: black;
+
+    margin: 2rem 0;
+    padding: 0.5rem;
+}
+
+.contact__icon {
+    color: gray;
+}
+
+.contact__heading {
+    color: #9D7A3E;
+
+    text-transform: uppercase;
+}
