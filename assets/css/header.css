@@ -21,7 +21,7 @@
     height: 50px;
 }
 
-.primaryNavigation__utility li:first-child {
+.logoHeader__li {
     margin-right: auto;
     padding-left: 2rem;
 }
@@ -36,7 +36,7 @@
 
     padding-right: 2rem;
 
-    height: 50px;
+    height: 30px;
 }
 
 .primaryNavigation__subscribe {
