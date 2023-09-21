@@ -7,44 +7,52 @@
     <title>HiFi Corner</title>
 </head>
 <body>
-    <header class="frontpageHeader">
-        <ul class="headerContact">
-            <li> <a href="#">
-                    <i class="fa-solid fa-location-dot headerWhiteIcon"></i>
-                </a></li>
-            <li> <a href="#">
+    <header class="primaryNavigation">
+        <ul class="primaryNavigation__utility">
+            <li>
+                <a href="#" class="primaryNavigation__item">
+                    <i class="fa-solid fa-location-dot"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="primaryNavigation__item">
                     <i class="fa-solid fa-phone headerWhiteIcon"></i>
-                </a></li>
-            <li><a href="#">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="primaryNavigation__item">
                     <i class="fa-regular fa-envelope headerWhiteIcon"></i>
-                </a></li>
-            <li class="headerContact__subscribe"><a href="#" class="headerContact__subscribe-icon">
-                    <i class="fa-solid fa-envelope headerContact__subscribe-icon "></i>
-                    <span class="headerContact__subscribe-pipe">|</span> Subscribe
-                </a></li>
+                </a>
+            </li>
+            <li class="primaryNavigation__subscribe">
+                <a href="#" class="primaryNavigation__item">
+                    <i class="fa-solid fa-envelope "></i>
+                    <span class="primaryNavigation__item--black">|</span> Subscribe
+                </a>
+            </li>
         </ul>
         <nav>
-            <menu class="headerMenu">
-                <li class="headerMenu__list">
-                    <a href="#" class="headerMenu__list">Home</a>
+            <menu class="primaryNavigation__navigation">
+                <li>
+                    <a href="#" class="primaryNavigation__item">Home</a>
                 </li>
-                <li class="headerMenu__list">
-                    <a href="#" class="headerMenu__list">About us</a>
+                <li>
+                    <a href="#" class="primaryNavigation__item">About us</a>
                 </li>
-                <li class="headerMenu__list">
-                    <a href="#" class="headerMenu__list">Brands</a>
+                <li>
+                    <a href="#" class="primaryNavigation__item">Brands</a>
                 </li>
-                <li class="headerMenu__list">
-                    <a href="#" class="headerMenu__list">Blog</a>
+                <li>
+                    <a href="#" class="primaryNavigation__item">Blog</a>
                 </li>
-                <li class="headerMenu__list">
-                    <a href="#" class="headerMenu__list">Events</a>
+                <li>
+                    <a href="#" class="primaryNavigation__item">Events</a>
                 </li>
-                <li class="headerMenu__list">
-                    <a href="#" class="headerMenu__list">Shop</a>
+                <li>
+                    <a href="#" class="primaryNavigation__item">Shop</a>
                 </li>
-                <li class="headerMenu__list">
-                    <a href="#" class="headerMenu__list">Contact us</a>
+                <li>
+                    <a href="#" class="primaryNavigation__item">Contact us</a>
                 </li>
             </menu>
         </nav>
@@ -77,17 +85,33 @@
         <div class="socials">
             <div class="socials__brand">
                 <img class="socials__background" src="./assets/facebook-brand.png" alt="facebook socials">
-                <i class="fa-brands fa-facebook-f socials__logo socials__logo--circle"></i>
+                <img src="./assets/facebook-icon-white-png.png" class="socials__logo" alt="facebook socials">
             </div>
             <div class="socials__brand">
-                <img class="socials__background" src="./assets/sennheiser-brand.jpg" alt="sennheiser socials">
-                <i class="fa-solid fa-b socials__logo socials__logo--rounded"></i>
+                <img class="socials__background" src="./assets/sennheiser-brand.jpg" alt="blogger socials">
+                <img src="./assets/blogger.png" class="socials__logo socials__logo--blogger" alt="blogger socials">
             </div>
             <div class="socials__brand">
                 <img class="socials__background" src="./assets/twitter-brand.jpg" alt="twitter socials">
-                <i class="fa-brands fa-twitter socials__logo socials__logo--circle"></i>
+                <img src="./assets/icone-ronde-twitter-violet.png" class="socials__logo socials__logo--twitter" alt="twitter socials">
             </div>
         </div>
+        <nav class="secondaryNavigation">
+            <menu class="secondaryNavigation__list">
+                <li class="secondaryNavigation__container">
+                   <a class="secondaryNavigation__link" href="#">History</a> 
+                   <p class="secondaryNavigation__text">established in the late 1960s, our family owned business is based in edinburgh and falkirk, servicing customers across the uk</p>
+                </li>
+                <li class="secondaryNavigation__container">
+                    <a class="secondaryNavigation__link" href="#">News</a>
+                    <p class="secondaryNavigation__text">check out our latest news stories for all the up to date hi-fi corner products and launches.</p>
+                </li>
+                <li class="secondaryNavigation__container">
+                    <a class="secondaryNavigation__link" href="#">shop</a>
+                    <p class="secondaryNavigation__text">have a look in our online shop for great products and deals.</p>
+                </li>
+            </menu>
+        </nav>
     </main>
     <footer class="site-footer">
         <article class="site-footer__container">

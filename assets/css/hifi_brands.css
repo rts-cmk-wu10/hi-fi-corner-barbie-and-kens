@@ -1,0 +1,64 @@
+.brands__headingCtn {
+    position: absolute;
+    margin-left: -60%;
+}
+
+.hero__logoCtn {
+    margin-right: -60%;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+}
+
+.brandsCtn {
+    border: solid rgb(255, 255, 255) 2em;
+    width: 100%;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+}
+
+.brands__left {
+    padding: 0 2rem;
+    grid-column: 1;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(23, 23, 23, 1) 50%, rgba(46, 46, 46, 1) 100%);
+}
+
+.brands__leftHeading {
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.brands__rightHeading,
+.brands__leftHeading,
+.brands__rightLink {
+    color: #CAA136;
+}
+
+.brands__right {
+    padding: 0 2rem;
+    grid-column: 2;
+    background: url("/assets/brandsBox__background.jpg");
+}
+
+.brands__rightLink,
+.brands__heading {
+    text-transform: uppercase;
+}
+
+.brands__rightInfo {
+    color: #fff;
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+
+.brands__rightHeading {
+    padding-bottom: 1rem;
+}
+
+.brands__background {
+    background-color: black;
+    padding: 0 12rem;
+}

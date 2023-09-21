@@ -24,18 +24,13 @@
 
 .socials__logo {
     position: absolute;
-
-    font-size: 80px;
-
-    background-color: white;
-
-    padding: 2rem;
+    height: 150px;
 }
 
-.socials__logo--circle {
-    border-radius: 50%;   
+.socials__logo--blogger{
+    filter: invert(1);
 }
 
-.socials__logo--rounded {
-    border-radius: 2rem;
+.socials__logo--twitter{
+ filter: brightness(0) invert(1) ;
 }
