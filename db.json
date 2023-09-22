@@ -2,57 +2,2254 @@
     "products": [
         {
             "id": 1,
-            "name": "",
-            "pictures": [],
-            "categories": [],
-            "warranty": "",
-            "price": 1,
+            "name": "Creek Classic cd",
+            "pictures": [
+                "./Produktbilleder/cd_afspillere/creek_classic_cd.jpg"
+            ],
+            "categories": [
+                "cd player"
+            ],
+            "warranty": "2 years",
+            "price": 899,
             "discount": 0,
             "card-surcharges": "no",
             "color": [
                 {
-                    "name": ""
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
                 }
             ],
             "delivery": [
                 {
-                    "charge": "",
-                    "time": ""
+                    "charge": "Free",
+                    "time": "1-3 business days"
                 }
             ],
             "manufacturer": [
                 {
-                    "name": "",
-                    "link": "",
-                    "logo": ""
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
                 }
             ],
             "description": [
                 {
-                    "text": "",
+                    "text": "The Creek Classic is a high-quality integrated amplifier designed for audiophiles seeking exceptional sound performance. It's crafted with precision and advanced features to deliver a remarkable audio experience.",
                     "technical": [
                         {
                             "input-sensitivity": [
                                 {
-                                    "mm": "",
-                                    "mc": "",
-                                    "high-level": "",
-                                    "balanced-high-level": "",
-                                    "power-amp-direct-in": ""
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "350mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
                                 }
                             ],
                             "signal-noise-ratio": [
                                 {
-                                    "mm": "",
-                                    "mc": "",
-                                    "high-level": "",
-                                    "power-amp-direct-in": ""
+                                    "mm": "78dB",
+                                    "mc": "30dB",
+                                    "high-level": "95dB",
+                                    "power-amp-direct-in": "1V"
                                 }
                             ],
-                            "power-output": "",
-                            "frenquency": "",
-                            "harmonic-distortion": "",
-                            "damping-factor": ""
+                            "power-output": "50W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "0.05%",
+                            "damping-factor": "100"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Creek Destiny",
+            "pictures": [
+                "./Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg"
+            ],
+            "categories": [
+                "cd player"
+            ],
+            "warranty": "2 years",
+            "price": 1199,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Creek Destiny is a high-end amplifier renowned for its exceptional audio quality and sophisticated design. It's a top choice for discerning audiophiles seeking the pinnacle of audio performance.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "500mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "82dB",
+                                    "mc": "30dB",
+                                    "high-level": "100dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "0.005%",
+                            "damping-factor": "150"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Creek Evo",
+            "pictures": [
+                "./Produktbilleder/cd_afspillere/creek_evo_cd.jpg"
+            ],
+            "categories": [
+                "cd player"
+            ],
+            "warranty": "2 years",
+            "price": 799,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-4 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Creek Evo is a versatile stereo amplifier that delivers impressive sound quality across various audio setups. Its sleek design complements modern interiors.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "3.2mV",
+                                    "mc": "30dB",
+                                    "high-level": "370mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "0.8V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "81dB",
+                                    "mc": "30dB",
+                                    "high-level": "112dB",
+                                    "power-amp-direct-in": "118dB"
+                                }
+                            ],
+                            "power-output": "60W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "0.004%",
+                            "damping-factor": "115"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Exp 2010S",
+            "pictures": [
+                "./Produktbilleder/cd_afspillere/Exp_2010S_CD.gif"
+            ],
+            "categories": [
+                "cd player"
+            ],
+            "warranty": "1 year",
+            "price": 499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "2-6 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Exp 2010S is a compact stereo amplifier designed for audiophiles seeking great sound performance in a smaller form factor. Ideal for space-conscious setups.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "3.5mV",
+                                    "mc": "30dB",
+                                    "high-level": "330mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "0.85V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "80dB",
+                                    "mc": "30dB",
+                                    "high-level": "111dB",
+                                    "power-amp-direct-in": "117dB"
+                                }
+                            ],
+                            "power-output": "40W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "0.006%",
+                            "damping-factor": "100"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "creek classic",
+            "pictures": [
+                "./Produktbilleder/dvdafspillere/creek_classic.jpg"
+            ],
+            "categories": [
+                "tv",
+                "home cinema"
+            ],
+            "warranty": "2 years",
+            "price": 899,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-4 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Exposure 2010S is a high-end stereo amplifier known for its transparent and detailed sound. It's designed for audiophiles who demand the best audio quality.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "3mV",
+                                    "mc": "30dB",
+                                    "high-level": "450mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "0.75V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "84dB",
+                                    "mc": "30dB",
+                                    "high-level": "115dB",
+                                    "power-amp-direct-in": "120dB"
+                                }
+                            ],
+                            "power-output": "70W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "0.004%",
+                            "damping-factor": "120"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Exposure 2010S",
+            "pictures": [
+                "./Produktbilleder/dvdafspillere/exposure_2010S.jpg"
+            ],
+            "categories": [
+                "tv",
+                "home cinema"
+            ],
+            "warranty": "2 years",
+            "price": 899,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-4 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Exposure",
+                    "link": "https://www.stereophile.com",
+                    "logo": "./assets/stereophileBrand.webp"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Exposure 2010S is a high-end stereo amplifier known for its transparent and detailed sound. It's designed for audiophiles who demand the best audio quality.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "3mV",
+                                    "mc": "30dB",
+                                    "high-level": "450mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "0.75V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "84dB",
+                                    "mc": "30dB",
+                                    "high-level": "115dB",
+                                    "power-amp-direct-in": "120dB"
+                                }
+                            ],
+                            "power-output": "70W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "0.004%",
+                            "damping-factor": "120"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Parasound D200",
+            "pictures": [
+                "./Produktbilleder/dvdafspillere/parasound_d200.jpg"
+            ],
+            "categories": [
+                "tv",
+                "home cinema"
+            ],
+            "warranty": "5 years",
+            "price": 1299,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Parasound",
+                    "link": "https://www.parasound.com",
+                    "logo": "./assets/parasoundBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Parasound D200 is a powerful stereo amplifier that offers exceptional performance and durability. It's ideal for both music enthusiasts and professional setups.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "1V",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "110dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "110W per channel",
+                            "frequency": "20Hz - 50kHz",
+                            "harmonic-distortion": "0.05%",
+                            "damping-factor": "800"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Parasound Halo D3",
+            "pictures": [
+                "./Produktbilleder/dvdafspillere/parasound_halod3.jpg"
+            ],
+            "categories": [
+                "tv",
+                "home cinema"
+            ],
+            "warranty": "3 years",
+            "price": 1799,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "2-5 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Parasound",
+                    "link": "https://www.parasound.com",
+                    "logo": "./assets/parasoundBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Parasound Halo D3 is a top-of-the-line stereo amplifier designed for audiophiles seeking uncompromised sound quality. It features advanced technologies for an exceptional listening experience.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "1V",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "110dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "125W per channel",
+                            "frequency": "10Hz - 100kHz",
+                            "harmonic-distortion": "0.005%",
+                            "damping-factor": "1200"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Manley Mahi",
+            "pictures": [
+                "./Produktbilleder/effektforstaerkere/manley_mahi.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "5 years",
+            "price": 2499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Gold"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Manley Labs",
+                    "link": "https://www.manley.com",
+                    "logo": "./assets/manleyBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Manley Mahi is a dual-mono, tube-based stereo amplifier that delivers rich, warm sound. It's a favorite among audiophiles looking for that classic tube sound.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "2V",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "100dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "40W per channel",
+                            "frequency": "10Hz - 40kHz",
+                            "harmonic-distortion": "0.5%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Manley NeoClassic 300B",
+            "pictures": [
+                "./Produktbilleder/effektforstaerkere/manley_neoclassic300b.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "5 years",
+            "price": 3999,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Manley Labs",
+                    "link": "https://www.manley.com",
+                    "logo": "./assets/manleyBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Manley NeoClassic 300B is a high-end tube-based stereo amplifier that brings out the best in your audio. With its iconic 300B tubes, it delivers a rich, detailed sound that audiophiles love.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "1V",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "95dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "15W per channel",
+                            "frequency": "10Hz - 30kHz",
+                            "harmonic-distortion": "0.3%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Manley Snapper",
+            "pictures": [
+                "./Produktbilleder/effektforstaerkere/manley_snapper.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "5 years",
+            "price": 4999,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Manley Labs",
+                    "link": "https://www.manley.com",
+                    "logo": "./assets/manleyBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Manley Snapper is a monoblock tube amplifier that's a powerhouse of musicality. It's designed to handle demanding audio setups and deliver exceptional audio quality.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "1V",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "95dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "0.5%",
+                            "damping-factor": "20"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Parasound Halo A23",
+            "pictures": [
+                "./Produktbilleder/effektforstaerkere/parasound_haloa23.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "5 years",
+            "price": 1599,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "2-5 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Parasound",
+                    "link": "https://www.parasound.com",
+                    "logo": "./assets/parasoundBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Parasound Halo A23 is a high-performance stereo power amplifier known for its clean, detailed sound and exceptional build quality. It's a perfect match for demanding audio setups.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "1V",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "112dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "125W per channel (8 ohms)",
+                            "frequency": "5Hz - 100kHz",
+                            "harmonic-distortion": "0.03%",
+                            "damping-factor": "800"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Creek OHB 22 Passive Preamp",
+            "pictures": [
+                "./Produktbilleder/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"
+            ],
+            "categories": [
+                "preamplifier"
+            ],
+            "warranty": "2 years",
+            "price": 499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Creek OHB 22 is a high-quality passive preamplifier designed to preserve audio fidelity. It's ideal for audiophiles looking for a clean and unaltered signal path.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Parasound Classic 7100",
+            "pictures": [
+                "./Produktbilleder/forforstaerkere/parasound_classic7100.jpg"
+            ],
+            "categories": [
+                "preamplifier"
+            ],
+            "warranty": "3 years",
+            "price": 1299,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "2-5 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Parasound",
+                    "link": "https://www.parasound.com",
+                    "logo": "./assets/parasoundBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Parasound Classic 7100 is a versatile preamplifier with excellent audio processing capabilities. It's designed to provide a strong foundation for high-quality audio in your system.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "150mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "115dB"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Parasound Halo P3",
+            "pictures": [
+                "./Produktbilleder/forforstaerkere/parasound_halop3.jpg"
+            ],
+            "categories": [
+                "preamplifier"
+            ],
+            "warranty": "3 years",
+            "price": 1199,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "2-5 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Parasound",
+                    "link": "https://www.parasound.com",
+                    "logo": "./assets/parasoundBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Parasound Halo P3 is a high-quality preamplifier designed to provide exceptional audio performance and versatile connectivity options. It's a perfect match for demanding audiophile setups.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "150mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "115dB"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Project PreBox",
+            "pictures": [
+                "./Produktbilleder/forforstaerkere/Project_prebox.jpg"
+            ],
+            "categories": [
+                "preamplifier"
+            ],
+            "warranty": "2 years",
+            "price": 299,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Project Audio",
+                    "link": "https://www.projectaudio.com",
+                    "logo": "project_logo.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Project PreBox is a compact and versatile preamplifier designed to enhance your audio experience. It offers multiple input options and is perfect for small to medium-sized audio setups.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Boesendorfer VCS Wall",
+            "pictures": [
+                "./Produktbilleder/hojtalere/boesendorfer_vcs_wall.gif"
+            ],
+            "categories": [
+                "speakers",
+                "ceiling speakers"
+            ],
+            "warranty": "5 years",
+            "price": 3999,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Boesendorfer",
+                    "link": "https://www.boesendorfer.com",
+                    "logo": "boesendorfer_logo.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Boesendorfer VCS Wall is a high-end wall-mounted speaker designed for audiophiles seeking exceptional sound quality. It delivers immersive sound in a sleek and elegant design, ideal for modern interiors.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "2V",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "95dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Epos MP5",
+            "pictures": [
+                "./Produktbilleder/hojtalere/epos_m5.gif"
+            ],
+            "categories": [
+                "speakers"
+            ],
+            "warranty": "2 years",
+            "price": 999,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Walnut"
+                },
+                {
+                    "name": "Black"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "2-5 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Epos",
+                    "link": "https://www.eposaudio.com",
+                    "logo": "epos_logo.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Epos MP5 is a compact bookshelf speaker known for its detailed and accurate sound reproduction. It's ideal for smaller spaces and audiophiles looking for high-quality sound in a smaller form factor.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "150mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "88dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Harbeth HL7ES2",
+            "pictures": [
+                "./Produktbilleder/hojtalere/harbeth_hl7es2.jpg"
+            ],
+            "categories": [
+                "speakers"
+            ],
+            "warranty": "5 years",
+            "price": 4499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Cherry"
+                },
+                {
+                    "name": "Rosewood"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Harbeth",
+                    "link": "https://www.harbeth.co.uk",
+                    "logo": "harbeth_logo.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Harbeth HL7ES2 is a flagship floor-standing speaker that delivers a captivating and detailed soundstage. It's designed for discerning audiophiles seeking the ultimate audio experience in their listening space.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "200mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "84dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Harbeth Monitor 30",
+            "pictures": [
+                "./Produktbilleder/hojtalere/harbeth_monitor30.jpg"
+            ],
+            "categories": [
+                "speakers"
+            ],
+            "warranty": "5 years",
+            "price": 3499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Cherry"
+                },
+                {
+                    "name": "Rosewood"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Harbeth",
+                    "link": "https://www.harbeth.co.uk",
+                    "logo": "harbeth_logo.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Harbeth Monitor 30 is a bookshelf speaker known for its clarity and precision in sound reproduction. It's perfect for both music and home theater setups, providing an accurate and immersive listening experience.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "150mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "83dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Harbeth P2ES2",
+            "pictures": [
+                "./Produktbilleder/hojtalere/harbeth_p3es2.jpg"
+            ],
+            "categories": [
+                "speakers"
+            ],
+            "warranty": "5 years",
+            "price": 2199,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Cherry"
+                },
+                {
+                    "name": "Rosewood"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Harbeth",
+                    "link": "https://www.harbeth.co.uk",
+                    "logo": "harbeth_logo.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Harbeth P2ES2 is a compact speaker that offers a surprising level of sonic performance. Ideal for smaller spaces, it delivers clear and accurate audio reproduction, making it a great choice for audiophiles.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "150mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "83dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Creek A50L",
+            "pictures": [
+                "./Produktbilleder/int_forstaerkere/creek_a50I.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "2 years",
+            "price": 799,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Creek A50L is a high-quality integrated amplifier that combines power and precision. It's designed to deliver exceptional audio performance and is perfect for driving a wide range of speakers with accuracy and clarity.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "4.0mV",
+                                    "mc": "30dB",
+                                    "high-level": "450mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "75dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "55W per channel",
+                            "frequency": "20Hz - 50kHz",
+                            "harmonic-distortion": "0.005%",
+                            "damping-factor": "100"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Creek Classic 5350SE",
+            "pictures": [
+                "./Produktbilleder/int_forstaerkere/creek_classic5350SE.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "2 years",
+            "price": 1199,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Creek Classic 5350SE is a versatile integrated amplifier that boasts an excellent balance of power and finesse. It's perfect for audiophiles seeking a comprehensive audio solution for their setup.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "4.0mV",
+                                    "mc": "30dB",
+                                    "high-level": "450mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "75dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "85W per channel",
+                            "frequency": "20Hz - 50kHz",
+                            "harmonic-distortion": "0.005%",
+                            "damping-factor": "100"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Creek DestinyAmp",
+            "pictures": [
+                "./Produktbilleder/int_forstaerkere/creek_destinyamp.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "2 years",
+            "price": 3499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Creek Audio",
+                    "link": "https://www.creekaudio.com",
+                    "logo": "./assets/creekAudioBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Creek DestinyAmp is a high-end integrated amplifier designed for audiophiles seeking uncompromised audio quality. It's crafted with precision and advanced components to deliver an unparalleled listening experience.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "4.0mV",
+                                    "mc": "30dB",
+                                    "high-level": "450mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "75dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "120W per channel",
+                            "frequency": "20Hz - 50kHz",
+                            "harmonic-distortion": "0.005%",
+                            "damping-factor": "100"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Manley Stingray",
+            "pictures": [
+                "./Produktbilleder/int_forstaerkere/Manley_Stingray.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "5 years",
+            "price": 2999,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "3-7 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Manley Labs",
+                    "link": "https://www.manley.com",
+                    "logo": "./assets/manleyBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Manley Stingray is a remarkable tube amplifier that brings warmth and precision to your audio. With its classic design and top-notch components, it's a favorite among audiophiles seeking a vintage touch in their audio setup.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "1V",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "95dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "50W per channel",
+                            "frequency": "20Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Project Debut 3 Bi",
+            "pictures": [
+                "./Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg"
+            ],
+            "categories": [
+                "turntable",
+                "vinyl"
+            ],
+            "warranty": "2 years",
+            "price": 499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "White"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Pro-Ject Audio Systems",
+                    "link": "https://www.project-audio.com",
+                    "logo": "./assets/pro-jectBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Project Debut 3 Bi is a popular entry-level turntable that offers excellent sound quality and ease of use. It's perfect for vinyl enthusiasts looking to start their analog journey with a reliable and affordable turntable.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Project Debut III Red 1",
+            "pictures": [
+                "./Produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg"
+            ],
+            "categories": [
+                "turntable",
+                "vinyl"
+            ],
+            "warranty": "2 years",
+            "price": 599,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Red"
+                },
+                {
+                    "name": "Black"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Pro-Ject Audio Systems",
+                    "link": "https://www.project-audio.com",
+                    "logo": "./assets/pro-jectBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Project Debut III Red 1 is a special edition turntable that stands out with its vibrant red color. It offers the same exceptional sound quality and features as the standard Debut III but with a unique aesthetic appeal.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Project Debut III Yellow 1",
+            "pictures": [
+                "./Produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
+            ],
+            "categories": [
+                "turntable",
+                "vinyl"
+            ],
+            "warranty": "2 years",
+            "price": 599,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Yellow"
+                },
+                {
+                    "name": "Black"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Pro-Ject Audio Systems",
+                    "link": "https://www.project-audio.com",
+                    "logo": "./assets/pro-jectBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Project Debut III Yellow 1 is a special edition turntable that features a striking yellow color. It delivers the same exceptional sound quality and features as the standard Debut III but with a unique and vibrant appearance.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Project RPM 5",
+            "pictures": [
+                "./Produktbilleder/pladespillere/Pro_ject_rpm_5.jpg"
+            ],
+            "categories": [
+                "turntable",
+                "vinyl"
+            ],
+            "warranty": "2 years",
+            "price": 899,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Pro-Ject Audio Systems",
+                    "link": "https://www.project-audio.com",
+                    "logo": "./assets/pro-jectBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Project RPM 5 is a mid-range turntable that offers high-quality sound reproduction and sleek design. It's suitable for audiophiles looking to upgrade their analog setup and experience improved audio performance.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Project RPM 10",
+            "pictures": [
+                "./Produktbilleder/pladespillere/Pro_ject_rpm10.jpg"
+            ],
+            "categories": [
+                "turntable",
+                "vinyl"
+            ],
+            "warranty": "2 years",
+            "price": 1299,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Pro-Ject Audio Systems",
+                    "link": "https://www.project-audio.com",
+                    "logo": "./assets/pro-jectBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Project RPM 10 is a high-end turntable known for its precision and audiophile-grade components. It's designed for discerning enthusiasts who demand the best in audio quality and performance from their turntable.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "90dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "100W per channel",
+                            "frequency": "10Hz - 50kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Jolida JD102B",
+            "pictures": [
+                "./Produktbilleder/roer_forstaerkere/jolida_JD102b.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "2 years",
+            "price": 799,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Jolida",
+                    "link": "https://www.jolidaaudio.com",
+                    "logo": "./assets/jolidaBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Jolida JD102B is a classic tube amplifier renowned for its warm and rich sound. It's designed for audiophiles seeking a vintage audio experience with modern reliability and performance.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "800mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "88dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "25W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "20"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Jolida JD202A",
+            "pictures": [
+                "./Produktbilleder/roer_forstaerkere/jolida_JD202a.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "2 years",
+            "price": 1199,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Jolida",
+                    "link": "https://www.jolidaaudio.com",
+                    "logo": "./assets/jolidaBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Jolida JD202A is a powerful integrated amplifier that delivers a clear and dynamic audio experience. It's designed for audiophiles looking for a reliable and versatile amplifier to elevate their sound system.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "800mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "88dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "60W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "20"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Jolida JD300B",
+            "pictures": [
+                "./Produktbilleder/roer_forstaerkere/jolida_JD300b.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "2 years",
+            "price": 1999,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Jolida",
+                    "link": "https://www.jolidaaudio.com",
+                    "logo": "./assets/jolidaBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Jolida JD300B is a high-end tube amplifier that offers a rich and immersive audio experience. It's perfect for audiophiles seeking the ultimate in tube amplification and sound quality.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "800mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "88dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "20W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Jolida JD302B",
+            "pictures": [
+                "./Produktbilleder/roer_forstaerkere/jolida_JD302b.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "2 years",
+            "price": 2499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Jolida",
+                    "link": "https://www.jolidaaudio.com",
+                    "logo": "./assets/jolidaBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Jolida JD302B is a powerful tube amplifier that delivers exceptional audio quality and a vintage aesthetic. It's designed for audiophiles who appreciate the warm and rich sound of tube amplification.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "800mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "88dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "40W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "15"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Jolida JD502B",
+            "pictures": [
+                "./Produktbilleder/roer_forstaerkere/jolida_JD502b.jpg"
+            ],
+            "categories": [
+                "amplifier"
+            ],
+            "warranty": "2 years",
+            "price": 3499,
+            "discount": 0,
+            "card-surcharges": "no",
+            "color": [
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Silver"
+                }
+            ],
+            "delivery": [
+                {
+                    "charge": "Free",
+                    "time": "1-3 business days"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "name": "Jolida",
+                    "link": "https://www.jolidaaudio.com",
+                    "logo": "./assets/jolidaBrand.png"
+                }
+            ],
+            "description": [
+                {
+                    "text": "The Jolida JD502B is a high-powered tube amplifier that delivers exceptional audio performance and versatility. It's designed for audiophiles seeking a powerful amplifier to drive their speakers with clarity and precision.",
+                    "technical": [
+                        {
+                            "input-sensitivity": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "800mV",
+                                    "balanced-high-level": "300mV",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "signal-noise-ratio": [
+                                {
+                                    "mm": "68dB",
+                                    "mc": "30dB",
+                                    "high-level": "88dB",
+                                    "power-amp-direct-in": "1V"
+                                }
+                            ],
+                            "power-output": "60W per channel",
+                            "frequency": "20Hz - 20kHz",
+                            "harmonic-distortion": "1%",
+                            "damping-factor": "10"
                         }
                     ]
                 }
