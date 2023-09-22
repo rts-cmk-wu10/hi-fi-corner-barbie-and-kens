@@ -1,0 +1,41 @@
+.sale {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+
+    height: 200px;
+
+    margin: 0 1rem;
+    padding: 0 1rem;
+
+    background-image: url('/assets/img/announcement-speaker.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.sale__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale__info, .sale__text, .sale__contact {
+    color: white;
+
+    text-transform: uppercase;
+}
+
+.sale__info {
+    font-size: xxx-large;
+}
+
+.sale__contact {
+    font-size: xx-large;
+}
+
+.sale__text {
+    font-size: 120px;
+}
