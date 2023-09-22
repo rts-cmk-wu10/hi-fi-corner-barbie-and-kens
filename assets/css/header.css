@@ -1,17 +1,13 @@
-.primaryNavigation {
+.primNav {
     display: flex;
     flex-direction: column;
-
     position: fixed;
-
     width: 100%;
-
     z-index: 99;
 }
 
-.primaryNavigation__utility {
+.primNav__utility {
     list-style-type: none;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -21,25 +17,18 @@
     height: 50px;
 }
 
-.logoHeader__li {
+.primNav__utility--black {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.primNav__logo--left {
     margin-right: auto;
     padding-left: 2rem;
 }
 
-.primaryNavigation__subscribe {
-    background-color: #1190E6;
-
-    border-radius: 0.25rem;
-
-    padding: 0.1rem 0.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
-
-    padding-right: 2rem;
-
-    height: 30px;
-}
-
-.primaryNavigation__subscribe {
+.primNav__subscribe {
     background-color: #1190E6;
     border-radius: 0.25rem;
     padding: 0.1rem 0.5rem;
@@ -48,41 +37,37 @@
     align-items: center;
 }
 
-.primaryNavigation__navigation {
+.primNav__navigation {
     list-style-type: none;
-
     background-color: black;
-
     border-top: solid 1px #9D7A3E;
-
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-
     height: 50px;
 }
 
-.primaryNavigation__item {
+.primNav__item {
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     color: white;
 }
 
-.primaryNavigation__item:hover {
+.primNav__item:hover {
     color: #9D7A3E;
 }
 
-.primaryNavigation__item--black {
+.primNav__item--black {
     color: gray;
 }
 
-.searchInputContainer {
+.primNav__searchInputContainer {
     position: relative;
 }
 
-.primaryNavigation__searchInput {
+.primNav__searchInput {
     width: 350px;
 }
 
@@ -94,48 +79,30 @@
     color: rgb(198, 198, 198);
 }
 
-.logoHeader {
+.primNav__logoHeader {
     width: 35px;
     height: 35px;
     /* margin-right: 50rem; */
 }
 
-.logoHeader__box {
+.primNav__logoHeaderBox {
     border: 2px solid white;
     height: 100%;
-
     display: flex;
     flex-direction: column-reverse;
-
     font-weight: bold;
     font-size: 5px;
-
     padding: 0.25rem;
 }
 
-.logoHeader__boxSpan {
+.primNav__logoHeader--white {
     color: #fff;
 }
 
-.logoHeader__url {
+.primNav__logoHeaderUrl {
     color: #fff;
     padding-top: 0.2rem;
     text-align: center;
     font-weight: bold;
     font-size: 3.5px;
-}
-
-.black {
-    background-color: black;
-    text-decoration: none;
-    color: white;
-}
-
-.primaryNavigation__item:hover {
-    color: #9D7A3E;
-}
-
-.primaryNavigation__item--black {
-    color: gray;
-
 }
