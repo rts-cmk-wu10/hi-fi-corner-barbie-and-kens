@@ -1,15 +1,8 @@
-.website__path{
+/* .website__path{
     padding: 10em 0 0 2em;
 }
 
-.shop__category--container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    padding-top: 1em;
-}
-.allaround--container{
+.allaround__container{
     display: flex;
     flex-direction: row;
     padding-top: 1em;
@@ -17,17 +10,23 @@
     gap: 6em;
 }
 
-.shop__manufacturer--container{
+.shopCategory__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+.shopManufacturer__container{
     display: flex;
     padding-top: 1em;
 }
 
-.shop__filter--container{
+.shopFilter__container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding-top: 2em;
-
     width: 800px;
     justify-content: flex-start;
     align-items: center;
@@ -43,7 +42,6 @@
     background-color: rgb(217, 217, 217);
     margin: 2em 0 0 2em;
     width: 200px;
-
 }
 
 .shop__categoryItem,
@@ -51,7 +49,6 @@
     padding: .6em 2em;
     list-style: none;
     color: #B19C6C;
-
 }
 
 .shop__shopBySubItem,
@@ -66,24 +63,24 @@
     height: fit-content;
 }
 
-.shop__manufacturer__title {
+.shopManufacturer__title {
     text-transform: uppercase;
     font-size: large;
     color: #B19C6C;
 }
 
-.shop__manufacturer__list {
+.shopManufacturer__item {
     list-style: none;
     padding: .3em;
 }
 
-.shop__manufacturer__listLink{
+.shopManufacturer__listLink{
     color: #B19C6C;
     text-decoration: none;
     text-transform: capitalize;
 }
 
-.shop__filter {
+.shopFilter {
     background-color: rgb(217, 217, 217);
     width: 830px;
     height: 50px;
@@ -95,7 +92,7 @@
 }
 
 
-.shop__items--container {
+.shopItems__container {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -107,23 +104,138 @@
     padding: .5em;
 }
 
-.shop__filter__text{
+.shopFilter__text{
     text-transform: uppercase;
     color: black;
 }
-.shop__items__title{
+.shopItems__title{
     text-align: center;
 }
 
-.shop__items__price{
+.shopItems__price{
     text-align: center;
 }
 
-.shop__items__button{
+.shopItems__button{
     text-align: center;
     margin: 1em 0;
     color: white;
     background-color: #B19C6C;
     padding: .5em;
+    border-style: none;
+} */
+
+.website__path {
+    padding: 10em 0 0 2em;
+}
+
+.allaround__container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+    justify-content: center;
+    gap: 6em;
+}
+
+.shopCategory__container,
+.shopFilter__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+.shopFilter__container {
+    width: 800px;
+    align-items: center;
+}
+
+.shop__categoryMenu,
+.shop__shopByMenu {
+    background-color: rgb(217, 217, 217);
+    margin: 0 0 0 2em;
+    width: 200px;
+}
+
+.shop__categoryItem,
+.shop__shopByItem,
+.shop__categorySubItem,
+.shop__shopBySubItem {
+    list-style: none;
+    color: #B19C6C;
+}
+
+.shop__categoryItem,
+.shop__shopByItem {
+    padding: 0.6em 2em;
+}
+
+.shop__shopBySubItem,
+.shop__categorySubItem {
+    padding: 0.6em 4em;
+}
+
+.shopManufacturer__container {
+    display: flex;
+    padding-top: 1em;
+}
+
+.shopManufacturer__title {
+    text-transform: uppercase;
+    font-size: large;
+    color: #B19C6C;
+}
+
+.shopManufacturer__item {
+    list-style: none;
+    padding: 0.3em;
+}
+
+.shopManufacturer__listLink {
+    color: #B19C6C;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.shopFilter {
+    background-color: rgb(217, 217, 217);
+    width: 830px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #CCC;
+    margin-bottom: 1em;
+}
+
+.shopItems__container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 840px;
+}
+
+.shop__items {
+    width: 210px;
+    padding: 0.5em;
+}
+
+.shopFilter__text,
+.shopFilter__showingItems {
+    text-transform: uppercase;
+    color: black;
+}
+
+.shopItems__title,
+.shopItems__price,
+.shopItems__button {
+    text-align: center;
+}
+
+.shopItems__button {
+    margin: 1em 0;
+    color: white;
+    background-color: #B19C6C;
+    padding: 0.5em;
     border-style: none;
 }

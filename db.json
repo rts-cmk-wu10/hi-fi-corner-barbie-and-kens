@@ -1,4 +1,60 @@
 {
+    "manufacturers": [
+        {
+            "id": 1,
+            "name": "Creek Audio",
+            "link": "https://www.creekaudio.com",
+            "logo": "./assets/creekAudioBrand.png"
+        },
+        {
+            "id": 2,
+            "name": "Exposure",
+            "link": "https://www.stereophile.com",
+            "logo": "./assets/stereophileBrand.webp"
+        },
+        {
+            "id": 3,
+            "name": "Parasound",
+            "link": "https://www.parasound.com",
+            "logo": "./assets/parasoundBrand.png"
+        },
+        {
+            "id": 4,
+            "name": "Manley Labs",
+            "link": "https://www.manley.com",
+            "logo": "./assets/manleyBrand.png"
+        },
+        {
+            "id": 5,
+            "name": "Boesendorfer",
+            "link": "https://www.boesendorfer.com",
+            "logo": "boesendorfer_logo.png"
+        },
+        {
+            "id": 6,
+            "name": "Epos",
+            "link": "https://www.eposaudio.com",
+            "logo": "epos_logo.png"
+        },
+        {
+            "id": 7,
+            "name": "Harbeth",
+            "link": "https://www.harbeth.co.uk",
+            "logo": "harbeth_logo.png"
+        },
+        {
+            "id": 8,
+            "name": "Pro-Ject Audio Systems",
+            "link": "https://www.project-audio.com",
+            "logo": "./assets/pro-jectBrand.png"
+        },
+        {
+            "id": 9,
+            "name": "Jolida",
+            "link": "https://www.jolidaaudio.com",
+            "logo": "./assets/jolidaBrand.png"
+        }
+    ],
     "products": [
         {
             "id": 1,
@@ -29,9 +85,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -94,9 +148,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -159,9 +211,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -224,9 +274,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -290,9 +338,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -356,9 +402,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Exposure",
-                    "link": "https://www.stereophile.com",
-                    "logo": "./assets/stereophileBrand.webp"
+                    "link": "http://localhost:3000/manufacturers/2"
                 }
             ],
             "description": [
@@ -419,9 +463,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Parasound",
-                    "link": "https://www.parasound.com",
-                    "logo": "./assets/parasoundBrand.png"
+                    "link": "http://localhost:3000/manufacturers/3"
                 }
             ],
             "description": [
@@ -482,9 +524,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Parasound",
-                    "link": "https://www.parasound.com",
-                    "logo": "./assets/parasoundBrand.png"
+                    "link": "http://localhost:3000/manufacturers/3"
                 }
             ],
             "description": [
@@ -547,9 +587,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Manley Labs",
-                    "link": "https://www.manley.com",
-                    "logo": "./assets/manleyBrand.png"
+                    "link": "http://localhost:3000/manufacturers/4"
                 }
             ],
             "description": [
@@ -609,9 +647,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Manley Labs",
-                    "link": "https://www.manley.com",
-                    "logo": "./assets/manleyBrand.png"
+                    "link": "http://localhost:3000/manufacturers/4"
                 }
             ],
             "description": [
@@ -671,9 +707,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Manley Labs",
-                    "link": "https://www.manley.com",
-                    "logo": "./assets/manleyBrand.png"
+                    "link": "http://localhost:3000/manufacturers/4"
                 }
             ],
             "description": [
@@ -733,9 +767,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Parasound",
-                    "link": "https://www.parasound.com",
-                    "logo": "./assets/parasoundBrand.png"
+                    "link": "http://localhost:3000/manufacturers/3"
                 }
             ],
             "description": [
@@ -798,9 +830,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -860,9 +890,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Parasound",
-                    "link": "https://www.parasound.com",
-                    "logo": "./assets/parasoundBrand.png"
+                    "link": "http://localhost:3000/manufacturers/3"
                 }
             ],
             "description": [
@@ -925,9 +953,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Parasound",
-                    "link": "https://www.parasound.com",
-                    "logo": "./assets/parasoundBrand.png"
+                    "link": "http://localhost:3000/manufacturers/3"
                 }
             ],
             "description": [
@@ -990,9 +1016,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Project Audio",
-                    "link": "https://www.projectaudio.com",
-                    "logo": "project_logo.png"
+                    "link": "http://localhost:3000/manufacturers/4"
                 }
             ],
             "description": [
@@ -1053,9 +1077,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Boesendorfer",
-                    "link": "https://www.boesendorfer.com",
-                    "logo": "boesendorfer_logo.png"
+                    "link": "http://localhost:3000/manufacturers/5"
                 }
             ],
             "description": [
@@ -1118,9 +1140,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Epos",
-                    "link": "https://www.eposaudio.com",
-                    "logo": "epos_logo.png"
+                    "link": "http://localhost:3000/manufacturers/6"
                 }
             ],
             "description": [
@@ -1183,9 +1203,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Harbeth",
-                    "link": "https://www.harbeth.co.uk",
-                    "logo": "harbeth_logo.png"
+                    "link": "http://localhost:3000/manufacturers/6"
                 }
             ],
             "description": [
@@ -1248,9 +1266,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Harbeth",
-                    "link": "https://www.harbeth.co.uk",
-                    "logo": "harbeth_logo.png"
+                    "link": "http://localhost:3000/manufacturers/7"
                 }
             ],
             "description": [
@@ -1313,9 +1329,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Harbeth",
-                    "link": "https://www.harbeth.co.uk",
-                    "logo": "harbeth_logo.png"
+                    "link": "http://localhost:3000/manufacturers/7"
                 }
             ],
             "description": [
@@ -1378,9 +1392,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -1440,9 +1452,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -1502,9 +1512,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Creek Audio",
-                    "link": "https://www.creekaudio.com",
-                    "logo": "./assets/creekAudioBrand.png"
+                    "url": "http://localhost:3000/manufacturers/1"
                 }
             ],
             "description": [
@@ -1564,9 +1572,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Manley Labs",
-                    "link": "https://www.manley.com",
-                    "logo": "./assets/manleyBrand.png"
+                    "link": "http://localhost:3000/manufacturers/4"
                 }
             ],
             "description": [
@@ -1630,9 +1636,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Pro-Ject Audio Systems",
-                    "link": "https://www.project-audio.com",
-                    "logo": "./assets/pro-jectBrand.png"
+                    "link": "http://localhost:3000/manufacturers/8"
                 }
             ],
             "description": [
@@ -1696,9 +1700,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Pro-Ject Audio Systems",
-                    "link": "https://www.project-audio.com",
-                    "logo": "./assets/pro-jectBrand.png"
+                    "link": "http://localhost:3000/manufacturers/8"
                 }
             ],
             "description": [
@@ -1762,9 +1764,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Pro-Ject Audio Systems",
-                    "link": "https://www.project-audio.com",
-                    "logo": "./assets/pro-jectBrand.png"
+                    "link": "http://localhost:3000/manufacturers/8"
                 }
             ],
             "description": [
@@ -1828,9 +1828,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Pro-Ject Audio Systems",
-                    "link": "https://www.project-audio.com",
-                    "logo": "./assets/pro-jectBrand.png"
+                    "link": "http://localhost:3000/manufacturers/8"
                 }
             ],
             "description": [
@@ -1894,9 +1892,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Pro-Ject Audio Systems",
-                    "link": "https://www.project-audio.com",
-                    "logo": "./assets/pro-jectBrand.png"
+                    "link": "http://localhost:3000/manufacturers/8"
                 }
             ],
             "description": [
@@ -1959,9 +1955,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Jolida",
-                    "link": "https://www.jolidaaudio.com",
-                    "logo": "./assets/jolidaBrand.png"
+                    "link": "http://localhost:3000/manufacturers/9"
                 }
             ],
             "description": [
@@ -2024,9 +2018,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Jolida",
-                    "link": "https://www.jolidaaudio.com",
-                    "logo": "./assets/jolidaBrand.png"
+                    "link": "http://localhost:3000/manufacturers/9"
                 }
             ],
             "description": [
@@ -2089,9 +2081,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Jolida",
-                    "link": "https://www.jolidaaudio.com",
-                    "logo": "./assets/jolidaBrand.png"
+                    "link": "http://localhost:3000/manufacturers/9"
                 }
             ],
             "description": [
@@ -2154,9 +2144,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Jolida",
-                    "link": "https://www.jolidaaudio.com",
-                    "logo": "./assets/jolidaBrand.png"
+                    "link": "http://localhost:3000/manufacturers/9"
                 }
             ],
             "description": [
@@ -2219,9 +2207,7 @@
             ],
             "manufacturer": [
                 {
-                    "name": "Jolida",
-                    "link": "https://www.jolidaaudio.com",
-                    "logo": "./assets/jolidaBrand.png"
+                    "link": "http://localhost:3000/manufacturers/9"
                 }
             ],
             "description": [
