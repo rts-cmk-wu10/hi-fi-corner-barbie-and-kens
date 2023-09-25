@@ -4,55 +4,55 @@
             "id": 1,
             "name": "Creek Audio",
             "link": "https://www.creekaudio.com",
-            "logo": "./assets/creekAudioBrand.png"
+            "logo": "./assets/img/creekAudioBrand.png"
         },
         {
             "id": 2,
             "name": "Exposure",
             "link": "https://www.stereophile.com",
-            "logo": "./assets/stereophileBrand.webp"
+            "logo": "./assets/img/stereophileBrand.webp"
         },
         {
             "id": 3,
             "name": "Parasound",
             "link": "https://www.parasound.com",
-            "logo": "./assets/parasoundBrand.png"
+            "logo": "./assets/img/parasoundBrand.png"
         },
         {
             "id": 4,
             "name": "Manley Labs",
             "link": "https://www.manley.com",
-            "logo": "./assets/manleyBrand.png"
+            "logo": "./assets/img/manleyBrand.png"
         },
         {
             "id": 5,
             "name": "Boesendorfer",
             "link": "https://www.boesendorfer.com",
-            "logo": "boesendorfer_logo.png"
+            "logo": "./assets/img/bösendorfer-Logo.png"
         },
         {
             "id": 6,
             "name": "Epos",
             "link": "https://www.eposaudio.com",
-            "logo": "epos_logo.png"
+            "logo": "./assets/img/eposlogo.webp"
         },
         {
             "id": 7,
             "name": "Harbeth",
             "link": "https://www.harbeth.co.uk",
-            "logo": "harbeth_logo.png"
+            "logo": "./assets/img/harbethlogo.png"
         },
         {
             "id": 8,
             "name": "Pro-Ject Audio Systems",
             "link": "https://www.project-audio.com",
-            "logo": "./assets/pro-jectBrand.png"
+            "logo": "./assets/img/pro-jectBrand.png"
         },
         {
             "id": 9,
             "name": "Jolida",
             "link": "https://www.jolidaaudio.com",
-            "logo": "./assets/jolidaBrand.png"
+            "logo": "./assets/img/jolidaBrand.png"
         }
     ],
     "products": [
