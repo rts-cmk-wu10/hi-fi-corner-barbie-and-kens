@@ -1,49 +1,45 @@
-.site-footer__container {
+.footerCtn {
     background-color: #A39161;
-    display: flex;
+    display: grid;
+    grid-template-columns: 275px auto auto 140px;
     align-items: center;
     padding: 1.2em;
 }
 
-.site-footer__adress {
-    padding-right: 4em;
-}
-
-.site-footer__links {
-    color: white;
-    text-decoration: none;
-    padding-bottom: 1.5em;
-}
-
-.site-footer__link {
+.footerCtn__links {
     color: white;
     text-decoration: none;
 }
 
-.site-footer__payment {
+.footerCtn__return,
+.footerCtn__privacy {
+    color: #fff;
+}
+
+.footerCtn__payment {
+    color: #fff;
     list-style: none;
     display: flex;
     gap: 0.7em;
-    padding-left: 28em;
-}
-
-.site-footer__paymentLogo {
-    color: white;
-    font-size: 30px;
-}
-
-.site-footer__social-media__link {
-    color: white;
-    border: white solid 1px;
-    border-radius: 50%;
-    padding: 0.5em;
-    font-size: 12px;
-}
-
-.site-footer__social-media {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    text-align: center;
-    gap: 0.5em;
     margin-left: auto;
+    font-size: 1.3em;
+}
+
+.footerCtn__some {
+    margin-left: auto;
+    display: flex;
+    gap: 5px;
+}
+
+.footerCtn__someLink {
+    color: white;
+    border: solid #fff 1px;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
