@@ -2,7 +2,7 @@
     "manufacturers": [
         {
             "id": 1,
-            "name": "creekaudio",
+            "name": "creek audio",
             "link": "https://www.creekaudio.com",
             "logo": "./assets/creekAudioBrand.png"
         },

@@ -2,6 +2,9 @@ const PRODUCTS = document.querySelector('.shop__items--container')
 const MANUFACTURERS = document.querySelector('.shop__shopByMenu')
 const CATEGORIES = document.querySelector('.shop__categoryMenu')
 
+const URLPARAMS = new URLSearchParams(window.location.search)
+
+// displays all manufactures
 fetch('http://localhost:3000/manufacturers')
     .then(res => res.json())
     .then(data => {
@@ -19,6 +22,7 @@ fetch('http://localhost:3000/manufacturers')
         })
     })
 
+// displays all categories
 fetch('http://localhost:3000/categories')
     .then(res => res.json())
     .then(data => {
@@ -36,8 +40,7 @@ fetch('http://localhost:3000/categories')
         })
     })
 
-const URLPARAMS = new URLSearchParams(window.location.search)
-
+ // displays all filtered products
 fetch('http://localhost:3000/products')
     .then(res => res.json())
     .then(data => {
@@ -46,7 +49,7 @@ fetch('http://localhost:3000/products')
             ELEMENT.className = 'shop__items'
 
             ELEMENT.innerHTML = `
-                <a href="#">
+                <a href="hifi-single-product.html?product=${product.name}">
                     <img class="shop__items__image" src="${product.pictures[0]}" alt="product image">
                     <h3 class="shop__items__title">${product.name}</h3>
                     <p class="shop__items__price">${product.price}$</p>
@@ -54,19 +57,20 @@ fetch('http://localhost:3000/products')
                 </a>
             `
 
+            // checks what content needs to be loaded depending on the URl search params
             if (URLPARAMS.has('category')) {
                 fetch(product.categories[0].url)
-                    .then(categoriesRes => categoriesRes.json())
-                    .then(categoriesData => {
-                        if (categoriesData.name === URLPARAMS.get('category')) {
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.name === URLPARAMS.get('category')) {
                             PRODUCTS.append(ELEMENT)
                         }
                     })
             } else if (URLPARAMS.has('manufacturer')) {
                 fetch(product.manufacturer[0].link)
-                    .then(manufacturerRes => manufacturerRes.json())
-                    .then(manufacturerdata => {
-                        if (manufacturerdata.name === URLPARAMS.get('manufacturer')) {
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.name === URLPARAMS.get('manufacturer')) {
                             PRODUCTS.append(ELEMENT)
                         }
                     })
