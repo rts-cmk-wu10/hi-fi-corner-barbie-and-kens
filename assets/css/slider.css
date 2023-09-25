@@ -10,6 +10,11 @@
 
 .slider__heading {
     color: #CAA136;
+
+    position: absolute;
+
+    margin-bottom: 12.5rem;
+    margin-left: 3rem;
 }
 
 .slider__img {
