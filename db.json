@@ -2,57 +2,111 @@
     "manufacturers": [
         {
             "id": 1,
-            "name": "Creek Audio",
+            "name": "creek audio",
             "link": "https://www.creekaudio.com",
-            "logo": "./assets/img/creekAudioBrand.png"
+            "logo": "./assets/creekAudioBrand.png"
         },
         {
             "id": 2,
-            "name": "Exposure",
+            "name": "exposure",
             "link": "https://www.stereophile.com",
-            "logo": "./assets/img/stereophileBrand.webp"
+            "logo": "./assets/stereophileBrand.webp"
         },
         {
             "id": 3,
-            "name": "Parasound",
+            "name": "parasound",
             "link": "https://www.parasound.com",
-            "logo": "./assets/img/parasoundBrand.png"
+            "logo": "./assets/parasoundBrand.png"
         },
         {
             "id": 4,
-            "name": "Manley Labs",
+            "name": "manley labs",
             "link": "https://www.manley.com",
-            "logo": "./assets/img/manleyBrand.png"
+            "logo": "./assets/manleyBrand.png"   
         },
         {
             "id": 5,
-            "name": "Boesendorfer",
+            "name": "boesendorfer",
             "link": "https://www.boesendorfer.com",
-            "logo": "./assets/img/bösendorfer-Logo.png"
+            "logo": "boesendorfer_logo.png"
         },
         {
             "id": 6,
-            "name": "Epos",
+            "name": "epos",
             "link": "https://www.eposaudio.com",
-            "logo": "./assets/img/eposlogo.webp"
+            "logo": "epos_logo.png"
         },
         {
             "id": 7,
-            "name": "Harbeth",
+            "name": "harbeth",
             "link": "https://www.harbeth.co.uk",
-            "logo": "./assets/img/harbethlogo.png"
+            "logo": "harbeth_logo.png"
         },
         {
             "id": 8,
-            "name": "Pro-Ject Audio Systems",
+            "name": "pro-ject audio systems",
             "link": "https://www.project-audio.com",
-            "logo": "./assets/img/pro-jectBrand.png"
+            "logo": "./assets/pro-jectBrand.png"
         },
         {
             "id": 9,
-            "name": "Jolida",
+            "name": "jolida",
             "link": "https://www.jolidaaudio.com",
-            "logo": "./assets/img/jolidaBrand.png"
+            "logo": "./assets/jolidaBrand.png"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "amplifiers"
+        }, 
+        {
+            "id": 2,
+            "name": "speakers"           
+        },
+        {
+            "id": 3,
+            "name": "turntables"
+        },
+        {
+            "id": 4,
+            "name": "cd players"
+        },
+        {
+            "id": 5,
+            "name": "streamers"
+        },
+        {
+            "id": 6,
+            "name": "cables"
+        },
+        {
+            "id": 7,
+            "name": "furniture"
+        },
+        {
+            "id": 8,
+            "name": "headphones"
+        },
+        {
+            "id": 9,
+            "name": "home cinema"
+        },
+        {
+            "id": 10,
+            "name": "ceiling speakers"
+        },
+        {
+            "id": 11,
+            "name": "tv"
+        },
+        {
+            "id": 12,
+            "name": "vinyl"
+        },
+        {
+            "id": 13,
+            "name": "preamplifier"
         }
     ],
     "products": [
@@ -63,7 +117,9 @@
                 "./Produktbilleder/cd_afspillere/creek_classic_cd.jpg"
             ],
             "categories": [
-                "cd player"
+                {
+                    "url": "http://localhost:3000/categories/4"
+                }
             ],
             "warranty": "2 years",
             "price": 899,
@@ -126,7 +182,9 @@
                 "./Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg"
             ],
             "categories": [
-                "cd player"
+                {
+                    "url": "http://localhost:3000/categories/4"
+                }
             ],
             "warranty": "2 years",
             "price": 1199,
@@ -189,7 +247,9 @@
                 "./Produktbilleder/cd_afspillere/creek_evo_cd.jpg"
             ],
             "categories": [
-                "cd player"
+                {
+                    "url": "http://localhost:3000/categories/4"
+                }
             ],
             "warranty": "2 years",
             "price": 799,
@@ -252,7 +312,9 @@
                 "./Produktbilleder/cd_afspillere/Exp_2010S_CD.gif"
             ],
             "categories": [
-                "cd player"
+                {
+                    "url": "http://localhost:3000/categories/4"
+                }
             ],
             "warranty": "1 year",
             "price": 499,
@@ -315,8 +377,12 @@
                 "./Produktbilleder/dvdafspillere/creek_classic.jpg"
             ],
             "categories": [
-                "tv",
-                "home cinema"
+                {
+                    "url": "http://localhost:3000/categories/11"
+                },
+                {
+                    "url": "http://localhost:3000/categories/9"
+                }
             ],
             "warranty": "2 years",
             "price": 899,
@@ -379,8 +445,12 @@
                 "./Produktbilleder/dvdafspillere/exposure_2010S.jpg"
             ],
             "categories": [
-                "tv",
-                "home cinema"
+                {
+                    "url": "http://localhost:3000/categories/11"
+                },
+                {
+                    "url": "http://localhost:3000/categories/9"
+                }
             ],
             "warranty": "2 years",
             "price": 899,
@@ -443,8 +513,12 @@
                 "./Produktbilleder/dvdafspillere/parasound_d200.jpg"
             ],
             "categories": [
-                "tv",
-                "home cinema"
+                {
+                    "url": "http://localhost:3000/categories/11"
+                },
+                {
+                    "url": "http://localhost:3000/categories/9"
+                }
             ],
             "warranty": "5 years",
             "price": 1299,
@@ -504,8 +578,12 @@
                 "./Produktbilleder/dvdafspillere/parasound_halod3.jpg"
             ],
             "categories": [
-                "tv",
-                "home cinema"
+                {
+                    "url": "http://localhost:3000/categories/11"
+                },
+                {
+                    "url": "http://localhost:3000/categories/9"
+                }
             ],
             "warranty": "3 years",
             "price": 1799,
@@ -565,7 +643,9 @@
                 "./Produktbilleder/effektforstaerkere/manley_mahi.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "5 years",
             "price": 2499,
@@ -628,7 +708,9 @@
                 "./Produktbilleder/effektforstaerkere/manley_neoclassic300b.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "5 years",
             "price": 3999,
@@ -688,7 +770,9 @@
                 "./Produktbilleder/effektforstaerkere/manley_snapper.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "5 years",
             "price": 4999,
@@ -748,7 +832,9 @@
                 "./Produktbilleder/effektforstaerkere/parasound_haloa23.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "5 years",
             "price": 1599,
@@ -808,7 +894,9 @@
                 "./Produktbilleder/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"
             ],
             "categories": [
-                "preamplifier"
+                {
+                    "url": "http://localhost:3000/categories/13"
+                }
             ],
             "warranty": "2 years",
             "price": 499,
@@ -871,7 +959,9 @@
                 "./Produktbilleder/forforstaerkere/parasound_classic7100.jpg"
             ],
             "categories": [
-                "preamplifier"
+                {
+                    "url": "http://localhost:3000/categories/13"
+                }
             ],
             "warranty": "3 years",
             "price": 1299,
@@ -931,7 +1021,9 @@
                 "./Produktbilleder/forforstaerkere/parasound_halop3.jpg"
             ],
             "categories": [
-                "preamplifier"
+                {
+                    "url": "http://localhost:3000/categories/13"
+                }
             ],
             "warranty": "3 years",
             "price": 1199,
@@ -994,7 +1086,9 @@
                 "./Produktbilleder/forforstaerkere/Project_prebox.jpg"
             ],
             "categories": [
-                "preamplifier"
+                {
+                    "url": "http://localhost:3000/categories/13"
+                }
             ],
             "warranty": "2 years",
             "price": 299,
@@ -1057,8 +1151,12 @@
                 "./Produktbilleder/hojtalere/boesendorfer_vcs_wall.gif"
             ],
             "categories": [
-                "speakers",
-                "ceiling speakers"
+                {
+                    "url": "http://localhost:3000/categories/2"
+                },
+                {
+                    "url": "http://localhost:3000/categories/10"
+                }
             ],
             "warranty": "5 years",
             "price": 3999,
@@ -1118,7 +1216,9 @@
                 "./Produktbilleder/hojtalere/epos_m5.gif"
             ],
             "categories": [
-                "speakers"
+                {
+                    "url": "http://localhost:3000/categories/2"
+                }
             ],
             "warranty": "2 years",
             "price": 999,
@@ -1181,7 +1281,9 @@
                 "./Produktbilleder/hojtalere/harbeth_hl7es2.jpg"
             ],
             "categories": [
-                "speakers"
+                {
+                    "url": "http://localhost:3000/categories/2"
+                }
             ],
             "warranty": "5 years",
             "price": 4499,
@@ -1244,7 +1346,9 @@
                 "./Produktbilleder/hojtalere/harbeth_monitor30.jpg"
             ],
             "categories": [
-                "speakers"
+                {
+                    "url": "http://localhost:3000/categories/2"
+                }
             ],
             "warranty": "5 years",
             "price": 3499,
@@ -1307,7 +1411,9 @@
                 "./Produktbilleder/hojtalere/harbeth_p3es2.jpg"
             ],
             "categories": [
-                "speakers"
+                {
+                    "url": "http://localhost:3000/categories/2"
+                }
             ],
             "warranty": "5 years",
             "price": 2199,
@@ -1370,7 +1476,9 @@
                 "./Produktbilleder/int_forstaerkere/creek_a50I.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "2 years",
             "price": 799,
@@ -1433,7 +1541,9 @@
                 "./Produktbilleder/int_forstaerkere/creek_classic5350SE.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "2 years",
             "price": 1199,
@@ -1493,7 +1603,9 @@
                 "./Produktbilleder/int_forstaerkere/creek_destinyamp.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "2 years",
             "price": 3499,
@@ -1553,7 +1665,9 @@
                 "./Produktbilleder/int_forstaerkere/Manley_Stingray.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "5 years",
             "price": 2999,
@@ -1613,8 +1727,12 @@
                 "./Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg"
             ],
             "categories": [
-                "turntable",
-                "vinyl"
+                {
+                    "url": "http://localhost:3000/categories/3"
+                },
+                {
+                    "url": "http://localhost:3000/categories/12"
+                }
             ],
             "warranty": "2 years",
             "price": 499,
@@ -1677,8 +1795,12 @@
                 "./Produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg"
             ],
             "categories": [
-                "turntable",
-                "vinyl"
+                {
+                    "url": "http://localhost:3000/categories/3"
+                },
+                {
+                    "url": "http://localhost:3000/categories/12"
+                }
             ],
             "warranty": "2 years",
             "price": 599,
@@ -1741,8 +1863,12 @@
                 "./Produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
             ],
             "categories": [
-                "turntable",
-                "vinyl"
+                {
+                    "url": "http://localhost:3000/categories/3"
+                },
+                {
+                    "url": "http://localhost:3000/categories/12"
+                }
             ],
             "warranty": "2 years",
             "price": 599,
@@ -1805,8 +1931,12 @@
                 "./Produktbilleder/pladespillere/Pro_ject_rpm_5.jpg"
             ],
             "categories": [
-                "turntable",
-                "vinyl"
+                {
+                    "url": "http://localhost:3000/categories/3"
+                },
+                {
+                    "url": "http://localhost:3000/categories/12"
+                }
             ],
             "warranty": "2 years",
             "price": 899,
@@ -1869,8 +1999,12 @@
                 "./Produktbilleder/pladespillere/Pro_ject_rpm10.jpg"
             ],
             "categories": [
-                "turntable",
-                "vinyl"
+                {
+                    "url": "http://localhost:3000/categories/3"
+                },
+                {
+                    "url": "http://localhost:3000/categories/12"
+                }
             ],
             "warranty": "2 years",
             "price": 1299,
@@ -1933,7 +2067,9 @@
                 "./Produktbilleder/roer_forstaerkere/jolida_JD102b.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "2 years",
             "price": 799,
@@ -1996,7 +2132,9 @@
                 "./Produktbilleder/roer_forstaerkere/jolida_JD202a.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "2 years",
             "price": 1199,
@@ -2059,7 +2197,9 @@
                 "./Produktbilleder/roer_forstaerkere/jolida_JD300b.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "2 years",
             "price": 1999,
@@ -2122,7 +2262,9 @@
                 "./Produktbilleder/roer_forstaerkere/jolida_JD302b.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "2 years",
             "price": 2499,
@@ -2185,7 +2327,9 @@
                 "./Produktbilleder/roer_forstaerkere/jolida_JD502b.jpg"
             ],
             "categories": [
-                "amplifier"
+                {
+                    "url": "http://localhost:3000/categories/1"
+                }
             ],
             "warranty": "2 years",
             "price": 3499,
