@@ -18,7 +18,8 @@
 
 .product__displayedImage {
     width: 700px;
-    object-fit: cover;
+    height: 500px;
+    object-fit: contain;
 }
 
 .product__gallery {
@@ -221,6 +222,9 @@
 
 .product__list {
     list-style-type: none;
+
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .product__item {
@@ -246,10 +250,12 @@
 }
 
 .product__value {
-    text-transform: capitalize;
-
     height: 100%;
     width: 60%;
+}
+
+.product__value--capitalize {
+    text-transform: capitalize;
 }
 
 .product__description {
