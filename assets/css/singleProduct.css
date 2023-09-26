@@ -43,7 +43,7 @@
     width: 100px;
 }
 
-.product__name, .product__more, .product__about, .product__options {
+.product__name, .product__about, .product__options {
     width: 100%;
 }
 
@@ -55,17 +55,21 @@
     color: #9D7A3E;
 }
 
+.product__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    padding-right: 1rem;
+}
+
 .product__more {
     color: #9D7A3E;
-
-    margin-bottom: 1rem;
 }
 
 .product__price {
-    position: absolute;
-    top: 62%;
-    right: 5%;
-
     font-size: x-large;
 
     color: #9D7A3E;
