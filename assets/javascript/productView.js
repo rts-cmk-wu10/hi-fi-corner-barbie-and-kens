@@ -40,7 +40,7 @@ fetch('http://localhost:3000/categories')
         })
     })
 
- // displays all filtered products
+// displays all filtered products
 fetch('http://localhost:3000/products')
     .then(res => res.json())
     .then(data => {
@@ -49,11 +49,11 @@ fetch('http://localhost:3000/products')
             ELEMENT.className = 'shop__items'
 
             ELEMENT.innerHTML = `
-                <a href="hifi-single-product.html?product=${product.name}">
-                    <img class="shop__items__image" src="${product.pictures[0]}" alt="product image">
-                    <h3 class="shop__items__title">${product.name}</h3>
-                    <p class="shop__items__price">${product.price}$</p>
-                    <button class="shop__items__button">Add to cart</button>
+                <a  class="shopItems__containerLink" href="hifi-single-product.html?product=${product.name}">
+                    <img class="shopItems__image" src="${product.pictures[0]}" alt="product image">
+                    <h3 class="shopItems__title">${product.name}</h3>
+                    <p class="shopItems__price">${product.price}$</p>
+                    <button class="shopItems__button">Add to cart</button>
                 </a>
             `
 
