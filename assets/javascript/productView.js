@@ -10,7 +10,7 @@ fetch('http://localhost:3000/manufacturers')
     .then(data => {
         data.forEach(manufacturer => {
             const ELEMENT = document.createElement('li')
-            ELEMENT.className = 'shop__manufacturer__list'
+            ELEMENT.className = 'shop__shopByItem'
 
             ELEMENT.textContent = manufacturer.name
 
