@@ -54,73 +54,39 @@
                     <a href="hifi-shop-frontpage.html" class="primNav__item">Shop</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="primNav__item">Contact us</a>
+                    <a href="#" class="primNav__item">Contact us</a>
                 </li>
             </menu>
         </nav>
     </header>
+
     <main>
-        <div class="hero">
-            <img class="hero__background" src="./assets/img/hero.jpg" alt="hero banner">
-            <article class="hero__container">
-                <div class="hero__box">
-                    <span>FI</span>
-                    <span>HI</span>
-                </div>
-                <h2 class="hero__url">HIFICORNER.CO.UK</h2>
-            </article>
-        </div>
-        <article class="announcement">
-            <h1 class="announcement__text">OUR EDINBURGH SHOWCASE HAS NOW MOVED TO STUNNING NEW PREMISES ON JOPPA ROAD
-            </h1>
-            <img class="announcement__background" src="./assets/img/waves.png" alt="announcement banner">
+
+        <article class="contact__formCtn">
+            <div class="hero__box">
+                <span>FI</span>
+                <span>HI</span>
+            </div>
+            <h2 class="hero__url">HIFICORNER.CO.UK</h2>
+            <form action="contactreceipt.html">
+                <label for="name">
+                    <input type="text" name="name" id="name">
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email">
+                </label>
+                <label for="phone">
+                    <input type="number" name="phone" id="phone">
+                </label>
+                <label for="message">
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </label>
+            </form>
         </article>
-        <article class="slider">
-            <button class="slider__back">
-                <i class="fa-solid fa-chevron-left"></i>
-            </button>
-            <h2 class="slider__heading">...</h2>
-            <img class="slider__img" data-index="0" src="./assets/img/primaluna.jpg" alt="slider image">
-            <button class="slider__forward">
-                <i class="fa-solid fa-chevron-right"></i>
-            </button>
-        </article>
-        <div class="socials">
-            <div class="socials__brand">
-                <img class="socials__background" src="./assets/img/facebook-brand.png" alt="facebook socials">
-                <img src="./assets/img/facebook-icon-white-png.png" class="socials__logo" alt="facebook socials">
-            </div>
-            <div class="socials__brand">
-                <img class="socials__background" src="./assets/img/sennheiser-brand.jpg" alt="blogger socials">
-                <img src="./assets/img/blogger.png" class="socials__logo socials__logo--blogger" alt="blogger socials">
-            </div>
-            <div class="socials__brand">
-                <img class="socials__background" src="./assets/img/twitter-brand.jpg" alt="twitter socials">
-                <img src="./assets/img/icone-ronde-twitter-violet.png" class="socials__logo socials__logo--twitter"
-                    alt="twitter socials">
-            </div>
-        </div>
-        <nav class="secondaryNavigation">
-            <menu class="secondaryNavigation__list">
-                <li class="secondaryNavigation__container">
-                    <a class="secondaryNavigation__link" href="#">History</a>
-                    <p class="secondaryNavigation__text">established in the late 1960s, our family owned business is
-                        based in edinburgh and falkirk, servicing customers across the uk</p>
-                </li>
-                <li class="secondaryNavigation__container">
-                    <a class="secondaryNavigation__link" href="#">News</a>
-                    <p class="secondaryNavigation__text">check out our latest news stories for all the up to date hi-fi
-                        corner products and launches.</p>
-                </li>
-                <li class="secondaryNavigation__container">
-                    <a class="secondaryNavigation__link" href="#">shop</a>
-                    <p class="secondaryNavigation__text">have a look in our online shop for great products and deals.
-                    </p>
-                </li>
-            </menu>
-        </nav>
+
     </main>
-    <footer>
+
+    <!-- <footer>
         <article class="footerCtn">
             <div class="footerCtn__address">
                 <p>Hi-Fi Corner<br>Edinburgh 2 Joppa Road EH15 2EU<br>Falkirk 44 Cow Wynd FK1 1PU</p>
@@ -142,9 +108,7 @@
                 <a class="footerCtn__someLink" href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </article>
-    </footer>
-
-    <script src="./assets/javascript/slider.js"></script>
+    </footer> -->
 </body>
 
 </html>
