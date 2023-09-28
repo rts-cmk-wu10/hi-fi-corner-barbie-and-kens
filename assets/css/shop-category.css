@@ -1,5 +1,7 @@
 .website__path {
     padding: 10em 0 0 2em;
+
+    font-family: var(--primary-font100)
 }
 
 .allaround__container {
@@ -35,9 +37,10 @@
 .shop__categorySubItem,
 .shop__shopBySubItem {
     list-style: none;
-    color: black;
+    color: var(--dark-color);
     text-transform: capitalize;
     cursor: pointer;
+    font-family: var(--primary-font500)
 }
 
 .shop__categoryItem,
@@ -59,18 +62,22 @@
     text-transform: uppercase;
     font-size: large;
     color: #B19C6C;
+
+    font-family: var(--primary-font300)
 }
 
 .shopManufacturer__item {
     list-style: none;
     padding: 0.3em;
-    color: black;
+    color: var(--dark-color);
 }
 
 .shopManufacturer__listLink {
     color: #B19C6C;
     text-decoration: none;
     text-transform: capitalize;
+
+    font-family: var(--primary-font300)
 }
 
 .shopFilter,
@@ -101,6 +108,8 @@
     text-transform: uppercase;
 
     padding: 1em 1.5em;
+
+    font-family: var(--primary-font300)
 }
 
 .shop__items {
@@ -111,14 +120,17 @@
 .shopFilter__text,
 .shopFilter__showingItems {
     text-transform: uppercase;
-    color: black;
+    color: var(--dark-color);
+
+    font-family: var(--primary-font700)
 }
 
 .shopItems__title {
-    color: black;
+    color: var(--dark-color);
     cursor: pointer;
     text-transform: uppercase;
     font-size: medium;
+    font-family: var(--primary-font500);
 }
 
 .shopItems__price {
@@ -128,12 +140,13 @@
 
 .shopItems__button {
     margin: 1em 0;
-    color: white;
+    color: var(--bright-color);
     background-color: #B19C6C;
     padding: 1em;
     border-style: none;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: var(--primary-font700)
 }
 
 .shopItems__image {
