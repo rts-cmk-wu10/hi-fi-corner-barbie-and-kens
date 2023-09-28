@@ -10,11 +10,13 @@
 #contactUs__error {
     z-index: 10;
     position: relative;
+
+    font-family: var(--primary-font500);
 }
 
 /* Logo styles */
 .logo__ctn {
-    color: #fff;
+    color: var(--bright-color);
     width: 175px;
     display: flex;
     flex-direction: column;
@@ -23,8 +25,8 @@
 }
 
 .logo__box {
-    color: #000;
-    border: 2px solid rgb(0, 0, 0);
+    color: var(--dark-color);
+    border: 2px solid var(--dark-color);
     height: 175px;
     display: flex;
     flex-direction: column-reverse;
@@ -34,14 +36,14 @@
 }
 
 .logo__url {
-    color: #000;
+    color: var(--dark-color);
     text-align: center;
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 1em;
 }
 .body__background {
-    background: rgb(0,0,0);
+    background: var(--dark-color);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(13, 13, 13) 50%, rgba(105,105,105,1) 100%);
 }
 .fyld {
@@ -63,7 +65,7 @@
 
 .contactUs__heading {
     grid-row: 1;
-    color: #fff;
+    color: var(--bright-color);
     font-size: 3em;
     place-self: end;
 }
@@ -86,6 +88,8 @@
     background-color: rgb(172, 157, 74);
     grid-row: 4;
     place-self: start center;
+
+    font-family: var(--primary-font1000);
 }
 
 .recordSpinner {
@@ -93,10 +97,10 @@
     display: block;
     height: 600px;
     width: 600px;
-    background-color: black;
-    background-image: linear-gradient(rgb(100, 99, 99), black, rgb(48, 48, 48));
+    background-color: var(--dark-color);
+    background-image: linear-gradient(rgb(100, 99, 99), var(--dark-color), rgb(48, 48, 48));
     border-radius: 50%;
-    border: solid 7px black;
+    border: solid 7px var(--dark-color);
     position: absolute;
     box-sizing: border-box;
     box-shadow: inset 0px 0px 40px rgba(87, 87, 87, 0.5);
@@ -130,8 +134,8 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border: solid 7px black;
-    background-color: rgb(172, 157, 74);
+    border: solid 7px var(--dark-color);
+    background-color: var(--accent-color);
     position: absolute;
     top: calc(50% - 50px);
     left: calc(50% - 50px);
@@ -143,11 +147,11 @@
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    border: solid 4px black;
-    background-color: rgb(195, 179, 90);
+    border: solid 4px var(--dark-color);
+    background-color: var(--accent-color);
     position: absolute;
     top: calc(50% - 35px);
     left: calc(50% - 35px);
     box-sizing: border-box;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px var(--transparent-color);
 }

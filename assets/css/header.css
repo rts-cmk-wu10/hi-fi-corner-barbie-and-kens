@@ -12,7 +12,7 @@
     justify-content: flex-end;
     align-items: center;
     gap: 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--transparent-color);
     padding-right: 2rem;
     height: 50px;
 }
@@ -35,12 +35,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: var(--primary-font500)
 }
 
 .primNav__navigation {
     list-style-type: none;
     background-color: black;
-    border-top: solid 1px #9D7A3E;
+    border-top: solid 1px var(--accent-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,11 +54,13 @@
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: var(--bright-color);
+
+    font-family: var(--PrimaryFont300)
 }
 
 .primNav__item:hover {
-    color: #9D7A3E;
+    color: var(--accent-color);
 }
 
 .primNav__item--black {
@@ -86,7 +90,7 @@
 }
 
 .primNav__logoHeaderBox {
-    border: 2px solid white;
+    border: 2px solid var(--bright-color);
     height: 100%;
     display: flex;
     flex-direction: column-reverse;
@@ -96,11 +100,11 @@
 }
 
 .primNav__logoHeader--white {
-    color: #fff;
+    color: var(--bright-color);
 }
 
 .primNav__logoHeaderUrl {
-    color: #fff;
+    color: var(--bright-color);
     padding-top: 0.2rem;
     text-align: center;
     font-weight: bold;

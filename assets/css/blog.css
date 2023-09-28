@@ -9,11 +9,11 @@
 .blogHero {
     height: 600px;
     width: 100%;
-    color: white;
+    color: var(--bright-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: var(--dark-color);
 }
 
 .blog__headingCtn {
@@ -30,25 +30,31 @@
 
 .blog__heading {
     text-transform: uppercase;
+
+    font-family: var(--primary-font700);
 }
 
 .blogArticle {
     height: 400px;
     width: 100%;
-    color: white;
+    color: var(--bright-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(0, 0, 0);
-    box-shadow: -2px -16px 20px 10px #000000;
+    background: var(--dark-color);
+    box-shadow: -2px -16px 20px 10px var(--dark-color);
     position: relative;
 }
 
 .blogArticle__header {
     font-size: xx-large;
+
+    font-family: var(--primary-font700);
 }
 
 .blogArticle__text {
     font-size: x-large;
+
+    font-family: var(--primary-font500);
 }

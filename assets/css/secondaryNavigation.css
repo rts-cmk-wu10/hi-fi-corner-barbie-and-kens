@@ -31,20 +31,23 @@
 
     padding: 0.2rem 1rem;
 
-    color: #CAA136;
+    color: var(--primary-color);
 
     font-size: x-large;
     font-weight: bold;
+    font-family: var(--primary-font500);
 
-    border: 1px solid white;
+    border: 1px solid var(--bright-color);
 
     text-transform: uppercase;
 }
 
 .secondaryNavigation__text {
-    width: 200px;
+    width: 300px;
 
-    color: white;
+    color: var(--bright-color);
 
     text-transform: uppercase;
+
+    font-family: var(--primary-font500)
 }

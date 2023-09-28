@@ -9,12 +9,16 @@
 }
 
 .slider__heading {
-    color: #CAA136;
+    color: var(--primary-color);
 
     position: absolute;
 
     margin-bottom: 12.5rem;
     margin-left: 3rem;
+
+    text-transform: uppercase;
+
+    font-family: var(--PrimaryFont500)
 }
 
 .slider__img {
@@ -26,7 +30,7 @@
 .slider__back, .slider__forward {
     background-color: transparent;
 
-    color: #CAA136;
+    color: var(--primary-color);
 
     border: none;
 
