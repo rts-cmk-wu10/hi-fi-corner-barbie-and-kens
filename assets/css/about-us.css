@@ -1,0 +1,23 @@
+.aboutHero__img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.aboutHero__heading{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 60px;
+    color: white;
+}
+.history{
+    margin: 0 4em;
+    padding-top: 1%;
+    display: flex;¨
+
+}
+.history__img{
+    width: 100%;
+    height: 100%;
+    max-width: 50%;
+}
