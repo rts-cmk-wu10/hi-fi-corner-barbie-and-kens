@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="/assets/javascript/contactValidate.js"></script>
     <title>HiFi Corner</title>
 </head>
 
@@ -54,39 +55,47 @@
                     <a href="hifi-shop-frontpage.html" class="primNav__item">Shop</a>
                 </li>
                 <li>
-                    <a href="#" class="primNav__item">Contact us</a>
+                    <a href="contact.html" class="primNav__item">Contact us</a>
                 </li>
             </menu>
         </nav>
     </header>
 
     <main>
-
-        <article class="contact__formCtn">
-            <div class="hero__box">
+        <div class="fyld"></div>
+        <!-- <article class="logo__ctn">
+            <div class="logo__box">
                 <span>FI</span>
                 <span>HI</span>
             </div>
-            <h2 class="hero__url">HIFICORNER.CO.UK</h2>
-            <form action="contactreceipt.html">
+            <h2 class="logo__url">HIFICORNER.CO.UK</h2>
+        </article> -->
+
+        <section class="contactUs">
+            <div class="recordSpinner"></div>
+            <h2 class="contactUs__heading">Contact us:</h2>
+            <form class="contactUs__form" action="contactreceipt.html">
                 <label for="name">
-                    <input type="text" name="name" id="name">
+                    <input type="text" name="name" id="name" placeholder="Name">
                 </label>
                 <label for="email">
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
                 </label>
                 <label for="phone">
-                    <input type="number" name="phone" id="phone">
+                    <input type="number" name="phone" id="phone" placeholder="Phone Number">
                 </label>
-                <label for="message">
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <label class="contactUs__formMessage" for="message">
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Your message here.."></textarea>
                 </label>
+
             </form>
-        </article>
+            <button class="contactUs__button" type="submit" form="form">SEND</button>
+        </section>
 
     </main>
 
-    <!-- <footer>
+    <footer>
         <article class="footerCtn">
             <div class="footerCtn__address">
                 <p>Hi-Fi Corner<br>Edinburgh 2 Joppa Road EH15 2EU<br>Falkirk 44 Cow Wynd FK1 1PU</p>
@@ -108,7 +117,7 @@
                 <a class="footerCtn__someLink" href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </article>
-    </footer> -->
+    </footer>
 </body>
 
 </html>

@@ -1,17 +1,31 @@
-.contact__formCtn {
-    padding-top: 200px;
-    display: flex;
+/* Common styles */
+.logo__ctn,
+.logo__box,
+.logo__url,
+.contactUs,
+.contactUs__heading,
+.contactUs__form,
+.contactUs__formMessage,
+.contactUs__button,
+#contactUs__error {
+    z-index: 10;
+    position: relative;
 }
 
-.hero__logoCtn {
+/* Logo styles */
+.logo__ctn {
+    color: #fff;
     width: 175px;
-    height: 175px;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 2em;
+    padding-top: 150px;
 }
 
-.hero__box {
+.logo__box {
+    color: #000;
     border: 2px solid rgb(0, 0, 0);
-    height: 100%;
+    height: 175px;
     display: flex;
     flex-direction: column-reverse;
     font-weight: bold;
@@ -19,8 +33,118 @@
     padding: 0.5rem;
 }
 
-.hero__url {
+.logo__url {
+    color: #000;
     text-align: center;
     font-weight: bold;
     font-size: 16px;
+    margin-bottom: 1em;
+}
+
+.fyld {
+    height: 150px;
+}
+
+/* Contact Us styles */
+.contactUs {
+    margin: 0 auto 5em;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+
+}
+
+.contactUs__heading {
+    grid-row: 1;
+    color: #fff;
+    font-size: 3em;
+    place-self: end;
+}
+
+.contactUs__form {
+    grid-row: 2 / span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contactUs__formMessage {
+    margin-top: 2em;
+}
+
+.contactUs__button {
+    padding: .75em 1.5em;
+    background-color: rgb(172, 157, 74);
+    grid-row: 4;
+    place-self: start center;
+}
+
+.recordSpinner {
+    place-self: center;
+    display: block;
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    background-image: linear-gradient(rgb(100, 99, 99), black, rgb(48, 48, 48));
+    border-radius: 50%;
+    border: solid 7px black;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 40px rgba(87, 87, 87, 0.5);
+    animation: spinner 2500ms linear infinite;
+}
+
+@keyframes spinner {
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 90deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    75% {
+        rotate: 270deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.recordSpinner::before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 7px black;
+    background-color: rgb(172, 157, 74);
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    box-sizing: border-box;
+}
+
+.recordSpinner::after {
+    content: "";
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 4px black;
+    background-color: rgb(195, 179, 90);
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
