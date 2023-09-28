@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIFI Blog</title>
     <link rel="stylesheet" href="style.css">
-    <title>HiFi Corner</title>
 </head>
 
 <body>
@@ -76,78 +76,27 @@
         </nav>
     </header>
     <main>
-        <p class="website__path">PATH TO WEBSITE</p>
-        <div class="allaround__container">
-            <div class="shopCategory__container">
-                <menu class="shop__categoryMenu">
-                    <h1 class="shopByMenu__title">Categories</h1>
-                </menu>
-                <menu class="shop__shopByMenu">
-                    <h1 class="shopByMenu__title">Shop By</h1>
-                </menu>
-            </div>
+        <article>
+            <div class="blogHero">
+                <img class="blogHero__background" src="./assets/img/hip-hop-1647759_1280.jpg" alt="hero banner">
 
-
-            <div class="shopFilter__container">
-                <div class="shopFilter">
-                    <form>
-                        <label class="shopFilter__text" for="sort">Sort by:</label>
-                        <select id="sort" name="sort">
-                            <option value="price">Price</option>
-                            <option value="brand">Brand</option>
-                            <option value="popularity">Popularity</option>
-                        </select>
-                    </form>
-                    <p class="shopFilter__text">View as:</p>
-                    <a href="#"><i class="fa-solid fa-grip" style="color: #9d793c;"></i></a>
-                    <a href="#"><i class="fa-solid fa-bars" style="color: rgb(200, 200, 200);"></i></a>
-                    <p class="shopFilter__showingItems"><span class="shopFilter__showingItemsResult">XXX</span>Item(s)
-                    </p>
-                    <form>
-                        <label class="shopFilter__text" for="show">Show:</label>
-                        <select id="show" name="show">
-                            <option value="50">50</option>
-                            <option value="100">100</option>
-                            <option value="300">300</option>
-                        </select>
-                    </form>
+                <div class="blog__headingCtn">
+                    <h2 class="blog__heading">Blog</h2>
                 </div>
-                <div class="shop__items--container"></div>
-                <div class="shop__filter--container">
-                    <div class="shop__filter">
-                        <form>
-                            <label class="shopFilter__text" for="sort">Sort by:</label>
-                            <select id="sort" name="sort">
-                                <option value="price">Price</option>
-                                <option value="brand">Brand</option>
-                                <option value="popularity">Popularity</option>
-                            </select>
-                        </form>
-                        <p class="shopFilter__text">View as:</p>
-                        <a href="#"><i class="fa-solid fa-grip" style="color: #9d793c;"></i></a>
-                        <a href="#"><i class="fa-solid fa-bars" style="color: rgb(200, 200, 200);"></i></a>
-                        <p class="shopFilter__showingItems"><span
-                                class="shopFilter__showingItemsResult">XXX</span>Item(s)
-                        </p>
-                        <form>
-                            <label class="shopFilter__text" for="show">Show:</label>
-                            <select id="show" name="show">
-                                <option value="50">50</option>
-                                <option value="100">100</option>
-                                <option value="300">300</option>
-                            </select>
-                        </form>
+                <article class="hero__logoCtn">
+                    <div class="hero__box">
+                        <span>FI</span>
+                        <span>HI</span>
                     </div>
-                </div>
+                    <h2 class="hero__url">HIFICORNER.CO.UK</h2>
+                </article>
             </div>
-            <div class="shopManufacturer--container">
-                <div class="shopManufacturer">
-                    <h2 class="shopManufacturer__title">Manufacturer</h2>
-                    <ul class="shopManufacturer__item">
-                        <a href="#" class="shopManufacturer__listLink">View all</a>
-                    </ul>
-                </div>
-            </div>
+        </article>
+        <article class="blogArticle">
+            <h1 class="blogArticle__header">This would be our blog</h1>
+            <p class="blogArticle__text">... Except that it's 2023 and nobody uses blogs anymore so why is it even
+                here?!</p>
+        </article>
     </main>
     <footer>
         <article class="footerCtn">
@@ -172,7 +121,6 @@
             </div>
         </article>
     </footer>
-    <script src="./assets/javascript/productView.js"></script>
 </body>
 
 </html>
