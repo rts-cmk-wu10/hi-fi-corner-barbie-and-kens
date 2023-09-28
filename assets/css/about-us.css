@@ -1,23 +1,83 @@
+/*****Hero*****/
+
 .aboutHero__img {
     width: 100%;
     height: 100%;
     position: relative;
 }
-.aboutHero__heading{
+
+.aboutHero__heading {
     position: absolute;
     top: 40%;
     left: 5%;
     font-size: 60px;
     color: white;
 }
-.history{
+/*****History*****/
+
+.history {
     margin: 0 4em;
     padding-top: 1%;
-    display: flex;¨
-
+    display: flex;
+    gap: 5%;
+    line-height: 1.7em;
 }
-.history__img{
+
+.history__txt {
+    align-self: center;
+}
+
+.history__img {
     width: 100%;
     height: 100%;
     max-width: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.history__txtHeading {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.history__txtLead {
+    font-weight: 900;
+    padding: 2em 0;
+}
+
+/*****Services*****/
+
+.services {
+    padding-top: 10%;
+    margin: 0 4em;
+}
+
+.services__heading {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.services__container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10em;
+    padding-top: 5%;
+}
+
+.services__offer{
+    justify-content: center; 
+}
+
+.services__offerIcon {
+    border: solid #000 1px;
+    border-radius: 50%;
+    padding: 0.7em;
+    font-size: 30px;
+}
+
+.services__offerBody{
+    padding-top: 2em;
 }
