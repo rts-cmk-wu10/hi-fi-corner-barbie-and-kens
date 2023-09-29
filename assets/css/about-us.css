@@ -63,6 +63,7 @@
 .services__heading {
     font-size: 50px;
     text-align: center;
+    font-family: var(--primary-font300);
 }
 
 .services__container {

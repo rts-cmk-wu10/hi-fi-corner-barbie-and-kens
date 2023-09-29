@@ -9,4 +9,5 @@
     color: white;
     text-transform: uppercase;
     height: 100vh;
+    font-family: var(--primary-font300);
 }
