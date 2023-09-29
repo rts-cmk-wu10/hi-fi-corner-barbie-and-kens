@@ -17,7 +17,11 @@
 @import url('./assets/css/shop-frontpage.css');
 @import url('./assets/css/contactpage.css');
 @import url('./assets/css/blog.css');
+
+@import url('./assets/css/about-us.css');
+@import url('./assets/css/subscribed.css');
 @import url('./assets/css/events.css');
+
 
 :root {
     --primary-font100: 'Museo Sans Rounded 100';
