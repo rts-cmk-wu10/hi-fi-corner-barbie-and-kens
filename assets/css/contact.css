@@ -4,7 +4,7 @@
     align-items: center;
     gap: 1rem;
 
-    background-color: black;
+    background-color: var(--dark-color);
 
     margin: 2rem 0;
     padding: 0.5rem;
@@ -15,7 +15,9 @@
 }
 
 .contact__heading {
-    color: #9D7A3E;
+    color: var(--accent-color);
+
+    font-family: var(--primary-font700);
 
     text-transform: uppercase;
 }

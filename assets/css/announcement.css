@@ -8,7 +8,7 @@
 }
 
 .announcement__text {
-    color: white;
+    color: var(--bright-color);
 
     position: absolute;
 
@@ -17,6 +17,8 @@
     width: 60%;
 
     text-align: center;
+
+    font-family: var(--primary-font300)
 }
 
 .announcement__background {

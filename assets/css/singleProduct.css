@@ -31,6 +31,8 @@
     text-transform: capitalize;
 
     color: #9D7A3E;
+
+    font-family: var(--primary-font500);
 }
 
 .product__galleryImages {
@@ -45,6 +47,8 @@
 
 .product__name, .product__about, .product__options {
     width: 100%;
+
+    font-family: var(--primary-font500)
 }
 
 .product__name {
@@ -52,7 +56,7 @@
 
     font-size: x-large;
 
-    color: #9D7A3E;
+    color: var(--primary-color);
 }
 
 .product__container {
@@ -66,13 +70,15 @@
 }
 
 .product__more {
-    color: #9D7A3E;
+    color: var(--primary-color);
+
+    font-family: var(--primary-font500)
 }
 
 .product__price {
     font-size: x-large;
 
-    color: #9D7A3E;
+    color: var(--primary-color);
 
     display: flex;
     justify-content: center;
@@ -98,10 +104,13 @@
 .product__option {
     font-size: 14px;
     font-weight: bold;
+    font-family: var(--primary-font500);
+
+    white-space: nowrap;
 
     padding: 0.5rem 1rem;
 
-    background-color: #9D7A3E;
+    background-color: var(--accent-color);
 
     border: none;
 
@@ -133,6 +142,8 @@
 
     padding: 0.5rem 0.5rem;
 
+    font-family: var(--primary-font700);
+
     width: 50%;
 
     display: flex;
@@ -147,6 +158,8 @@
     
     padding: 1rem;
 
+    font-family: var(--primary-font500);
+
     display: flex;
     justify-content: start;
     align-items: start;
@@ -154,7 +167,7 @@
 }
 
 .product__quantityLabel {
-    color: #9D7A3E;
+    color: var(--primary-color);
 
     font-weight: bold;
 
@@ -186,6 +199,11 @@
 .product__cart {
     width: 200px;
     height: 40px;
+
+    text-transform: capitalize;
+
+    font-size: 18px;
+    font-family: var(--primary-font500);
 }
 
 .product__paypal {
@@ -197,6 +215,8 @@
 
     padding: 0.25rem 0;
 
+    font-family: var(--primary-font700);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,6 +225,17 @@
 
 .product__paypal--icon {
     width: 80px;
+}
+
+.product__advert {
+    text-transform: capitalize;
+
+    width: 300px;
+
+    text-align: center;
+
+    font-size: 12px;
+    font-family: var(--primary-font500);
 }
 
 .product__info {
@@ -221,7 +252,9 @@
 
     text-transform: uppercase;
 
-    color: #9D7A3E;
+    color: var(--primary-color);
+
+    font-family: var(--primary-font500);
 }
 
 .product__list {
@@ -235,12 +268,19 @@
     display: flex;
     justify-content: start;
     align-items: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .product__subtitle, .product__value {
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1rem;
 
-    padding: 0.5rem;
+    height: 50px;
+
+    text-align: left;
+
+    font-size: 14px;
+    font-family: var(--primary-font500)
 }
 
 .product__subtitle {
@@ -249,16 +289,15 @@
     font-size: medium;
 
     width: 40%;
+    height: 50px;
 
     text-transform: uppercase;
 }
 
 .product__value {
-    height: 100%;
+    height: 50px;
     width: 60%;
-}
 
-.product__value--capitalize {
     text-transform: capitalize;
 }
 
@@ -279,6 +318,10 @@
 .product__specification {
     display: flex;
     justify-content: space-between;
+
+    font-family: var(--primary-font300);
+
+    text-transform: capitalize;
 
     width: 500px;
 }
