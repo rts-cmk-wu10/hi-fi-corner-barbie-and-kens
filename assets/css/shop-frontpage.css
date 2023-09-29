@@ -1,22 +1,23 @@
 .shopCtn {
     padding-top: 100px;
     display: grid;
-    grid-template-columns: repeat(4, 125px);
+    grid-template-columns: repeat(4, 150px);
     justify-content: center;
-    background-color: black;
+    background-color: var(--dark-color);
+    padding: 125px 0;
 }
 
 .shopCtn__box {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     position: relative;
     text-align: center;
     background-color: #A39161;
 }
 
 .shopCtn__boxImg {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
 }
 
 .shopCtn__link {
@@ -24,9 +25,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    color: var(--bright-color);
     text-transform: uppercase;
     font-size: 12px;
+    font-family: var(--primary-font500);
     width: 95%;
 }
 

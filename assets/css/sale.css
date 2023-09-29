@@ -20,12 +20,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    text-align: left;
 }
 
 .sale__info, .sale__text, .sale__contact {
     color: white;
 
     text-transform: uppercase;
+
+    width: 800px;
+
+    font-family: var(--primary-font1000)
 }
 
 .sale__info {
