@@ -1,6 +1,6 @@
 const PATH = document.querySelector('.website__path')
 const PRODUCTS = document.querySelector('.shop__items--container')
-const CATEGORIES = document.querySelector('.shop__categoryMenu')
+const CATEGORIES = document.querySelector('.shopCategory__menu')
 const MANUFACTURERS = document.querySelector('.shop__shopByMenu')
 const VIEWMANUFACTURES = document.querySelector('.shopManufacturer__item')
 const ITEMCOUNT = document.querySelectorAll('.shopFilter__showingItemsResult')
@@ -55,7 +55,6 @@ fetch('http://localhost:3000/categories')
                 window.location.href = `?category=${category.name}`
             })
 
-            console.log(ELEMENT);
             CATEGORIES.append(ELEMENT)
         })
     })
