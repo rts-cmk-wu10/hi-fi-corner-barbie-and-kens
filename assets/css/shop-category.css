@@ -7,7 +7,7 @@
     text-transform: capitalize;
 }
 
-.allaround__container {
+.shopCategory {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.shop__categoryMenu,
+.shopCategory__menu,
 .shop__shopByMenu {
     background-color: rgb(217, 217, 217);
     width: 200px;

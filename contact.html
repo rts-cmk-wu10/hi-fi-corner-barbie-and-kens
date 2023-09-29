@@ -9,7 +9,7 @@
     <title>HiFi Corner</title>
 </head>
 
-<body class="body__background">
+<body class="contactUs__background">
     <header class="primNav">
         <ul class="primNav__utility">
             <li>
@@ -46,10 +46,10 @@
                     <a href="hifi_brands.html" class="primNav__item">Brands</a>
                 </li>
                 <li>
-                    <a href="#" class="primNav__item">Blog</a>
+                    <a href="HIFI-blog.html" class="primNav__item">Blog</a>
                 </li>
                 <li>
-                    <a href="#" class="primNav__item">Events</a>
+                    <a href="HIFI-events.html" class="primNav__item">Events</a>
                 </li>
                 <li>
                     <a href="hifi-shop-frontpage.html" class="primNav__item">Shop</a>
@@ -62,7 +62,7 @@
     </header>
 
     <main>
-        <div class="fyld"></div>
+        <div class="contactUs__filler"></div>
         <!-- <article class="logo__ctn">
             <div class="logo__box">
                 <span>FI</span>
@@ -72,26 +72,32 @@
         </article> -->
 
         <section class="contactUs">
-            <div class="recordSpinner"></div>
+            <div class="contactUs__recordSpinner"></div>
             <h2 class="contactUs__heading">Contact us</h2>
             <form class="contactUs__form" action="contactreceipt.html">
-                <label for="name">
-                    <input type="text" name="name" id="name" placeholder="Name">
+                <label class="contactUs__label" for="name">
+                    <input class="contactUs__input" type="text" name="name" id="name" placeholder="Name">
                 </label>
-                <label for="email">
-                    <input type="email" name="email" id="email" placeholder="E-mail">
+                <label class="contactUs__label" for="email">
+                    <input class="contactUs__input" type="email" name="email" id="email" placeholder="E-mail">
                 </label>
-                <label for="phone">
-                    <input type="number" name="phone" id="phone" placeholder="Phone Number">
+                <label class="contactUs__label" for="phone">
+                    <input class="contactUs__input" type="number" name="phone" id="phone" placeholder="Phone Number">
                 </label>
-                <label class="contactUs__formMessage" for="message">
-                    <textarea name="message" id="message" cols="30" rows="10"
+                <label class="contactUs__label contactUs__formMessage" for="message">
+                    <textarea class="contactUs__textarea" name="message" id="message" cols="30" rows="10"
                         placeholder="Your message here.."></textarea>
                 </label>
-
+                <button class="contactUs__button" type="submit" form="form">SEND</button>
             </form>
-            <button class="contactUs__button" type="submit" form="form">SEND</button>
         </section>
+        With these changes, your code is more aligned with the BEM methodology, making it easier to understand and maintain in larger projects.
+        
+        
+        
+        
+        
+        
 
     </main>
 
