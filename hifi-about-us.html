@@ -141,10 +141,10 @@
                 <p class="newsletter__lead">Sign up for our newsletter to get the latest deals, news and updates<br>
                     about
                     our upcoming events!</p>
-                <form class="newsletter__form">
+                <form action="HIFI-subscribed.html" class="newsletter__form" novalidate>
                     <input class="newsletter__formInput" type="email" id="email" name="email" placeholder="Email"
                         required>
-                    <button class="newsletter__formButton">Subscribe</button>
+                    <button type="submit" class="newsletter__formButton">Subscribe</button>
                 </form>
             </section>
             <section class="aboutBrands__container">
@@ -179,7 +179,8 @@
             </div>
         </article>
     </footer>
-    <script src="/assets/javascript/logoView.js"></script>
+    <script src="/assets/javascript/logoView.js" defer></script>
+    <script src="/assets/javascript/newsletter.js" defer></script>
 </body>
 
 </html>
