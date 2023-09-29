@@ -11,7 +11,7 @@
 .footerCtn__links {
     color: var(--bright-color);
     text-decoration: none;
-    font-family: var(--primary-font700)
+    font-family: var(--primary-font300)
 }
 
 .footerCtn__return,
@@ -48,7 +48,7 @@
 }
 
 .footerCtn__address {
-    font-family: var(--primary-font700);
+    font-family: var(--primary-font500);
 
     font-size: 14px;
 }
