@@ -1,4 +1,4 @@
-const PATH = document.querySelector('.website__path')
+const PATH = document.querySelector('.path')
 const PRODUCTS = document.querySelector('.shop__items--container')
 const CATEGORIES = document.querySelector('.shopCategory__menu')
 const MANUFACTURERS = document.querySelector('.shop__shopByMenu')
@@ -10,7 +10,7 @@ const URLPARAMS = new URLSearchParams(window.location.search)
 if (URLPARAMS.has('category')) {
     PATH.innerHTML += `
         /
-        <span>${URLPARAMS.get('category')}</span>
+        <span class="path__item path__item--black">${URLPARAMS.get('category')}</span>
     `
 }
 
