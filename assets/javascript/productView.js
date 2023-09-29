@@ -55,6 +55,7 @@ fetch('http://localhost:3000/categories')
                 window.location.href = `?category=${category.name}`
             })
 
+            console.log(ELEMENT);
             CATEGORIES.append(ELEMENT)
         })
     })
