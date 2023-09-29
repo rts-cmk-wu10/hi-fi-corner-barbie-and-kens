@@ -1,6 +1,6 @@
 const PRODUCTS = document.querySelector('.shop__items--container')
 const MANUFACTURERS = document.querySelector('.shop__shopByMenu')
-const CATEGORIES = document.querySelector('.shop__categoryMenu')
+const CATEGORIES = document.querySelector('.shopCategory__menu')
 
 const URLPARAMS = new URLSearchParams(window.location.search)
 
