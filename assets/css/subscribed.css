@@ -1,4 +1,4 @@
-body{
+.subscribed__body{
     background-color: black;
 }
 
@@ -8,4 +8,5 @@ body{
     font-size: 30px;
     color: white;
     text-transform: uppercase;
+    height: 100vh;
 }
