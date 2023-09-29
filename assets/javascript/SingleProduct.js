@@ -137,7 +137,7 @@ fetch(`http://localhost:3000/products?name=${URLPARAMS.get('product')}`)
 			.then(res => res.json())
 			.then(data => {
 				MORE.textContent = `See other ${data.name} products`
-				console.log('hello');
+				
 				PRODUCTLIST.innerHTML += `
 					<li class="product__item">
 						<h2 class="product__subtitle product__value--capitalize">manufacturer link</h2>
