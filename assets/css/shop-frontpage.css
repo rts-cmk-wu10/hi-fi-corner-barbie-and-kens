@@ -27,7 +27,7 @@
     transform: translate(-50%, -50%);
     color: var(--bright-color);
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     font-family: var(--primary-font500);
     width: 95%;
 }
