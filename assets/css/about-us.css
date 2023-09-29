@@ -66,7 +66,7 @@
     justify-content: center;
     gap: 4em;
     padding-top: 5%;
-    color: 	#3A3B3C;
+    color: #3A3B3C;
 }
 
 .services__offer {
@@ -146,10 +146,18 @@
     display: flex;
     justify-content: center;
 }
-.newsletter__formInput{
-    padding: 20px 200px 20px 10px;
+
+.newsletter__formInput {
+    padding: 2em;
+    width: 50%;
 }
-.newsletter__formButton{
+
+.errorMessage {
+    color: white;
+    text-align: center;
+}
+
+.newsletter__formButton {
     border-radius: 0;
     padding: 21px 70px;
     border: none;
@@ -188,7 +196,7 @@
     margin: 2em 0;
 }
 
-.aboutBrands__buttonLink{
+.aboutBrands__buttonLink {
     text-decoration: none;
     color: black;
 }

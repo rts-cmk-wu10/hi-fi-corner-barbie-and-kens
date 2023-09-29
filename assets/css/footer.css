@@ -4,6 +4,9 @@
     grid-template-columns: 275px auto auto 140px;
     align-items: center;
     padding: 1.2em;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .footerCtn__links {
