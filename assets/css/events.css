@@ -1,0 +1,43 @@
+.events{
+    padding-top: 150px;
+    width: 50%;
+    text-align: center;
+    font-family: var(--primary-font300);
+    margin: auto;
+}
+.events__title{
+    font-family: var(--primary-font500);
+    text-transform: uppercase;
+}
+
+.harryStyles__event{
+    display: flex;
+    width: 50%;
+    border: solid var(--dark-color) 2px;
+}
+
+.harryStyles__img{
+    height: 250px;
+}
+.harryStyles__textContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.harryStyles__title{
+    font-family: var(--primary-font500);
+    padding: .5em;
+    text-transform: uppercase;
+    
+}
+.harryStyles__description{
+    font-family: var(--primary-font300);
+    padding: 0 .7em;
+}
+
+.harryStyles__info{
+    font-style: italic;
+    font-family: var(--primary-font300);
+    padding:  1em .7em;
+}
